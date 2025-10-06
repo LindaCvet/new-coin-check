@@ -29,10 +29,12 @@ jobs:
       - name: Run checker
         run: python scripts/check_coin.py
 
-      - name: Commit OUTPUT.md
+      - name: Commit & Push OUTPUT.md (with rebase)
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git fetch origin
+          git pull --rebase origin main || true
           git add OUTPUT.md
           git commit -m "Update OUTPUT.md from TA checker" || echo "No changes to commit"
-          git push
+          git push || (git pull --rebase origin main && git push)
