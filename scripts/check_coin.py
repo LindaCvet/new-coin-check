@@ -113,6 +113,7 @@ def analyze(base: str, exchange: str, quote: str):
     trend_up = (c1.close > c1.ema50) and (c4.close > c4.ema50) and (cd.close > cd.ema50)
     macd1h = macd_state(c1.macd, c1.macd_signal)
     s = score(trend_up, macd1h=="bullish", float(c1.rsi14 or 50), pct24h >= ANTI_FOMO_PCT)
+    verdict = compute_verdict(pct24h, trend_up, macd1h, float(c1.rsi14 or 50), s)
 
     c15 = df15.iloc[-1]
     atr = float(c15.atr14 or 0)
@@ -147,6 +148,8 @@ def analyze(base: str, exchange: str, quote: str):
         "TP3": round(tp3, 6),
         "risk": risk,
         "score": s,
+        "verdict": verdict,
+
     }
 # ===== REPLACE make_exchange + analyze END =====
 
@@ -285,6 +288,14 @@ def write_output(result: dict, coin_line: str, out_path="OUTPUT.md"):
 - **TP1/TP2/TP3:** `{result['TP1']}` / `{result['TP2']}` / `{result['TP3']}`
 - **Risks:** {result['risk']} | **Score:** {result['score']}/100
 
+
+### Ieteikums
+- **Verdikts:** {result['verdict']}
+- **Setup:** {result['setup']}
+- **Entry:** {result['entry']}
+- **SL:** `{result['SL']}`
+- **TP1/TP2/TP3:** `{result['TP1']}` / `{result['TP2']}` / `{result['TP3']}`
+- **Risks:** {result['risk']} | **Score:** {result['score']}/100
 *Ne finanšu padoms.*
 """
     with open(out_path, "w", encoding="utf-8") as f:
