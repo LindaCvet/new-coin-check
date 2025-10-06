@@ -47,18 +47,22 @@ def fetch_df(ex, symbol: str, tf="1h", limit=400):
 
 def add_ind(df: pd.DataFrame):
     out = df.copy()
-    out.set_index("ts", inplace=True)
-    out["rsi14"] = ta.rsi(out["close"], length=14)
-    macd = ta.macd(out["close"], fast=12, slow=26, signal=9)
-    out["macd"] = macd["MACD_12_26_9"]
-    out["macd_signal"] = macd["MACDs_12_26_9"]
-    out["macd_hist"] = macd["MACDh_12_26_9"]
-    out["atr14"] = ta.atr(out["high"], out["low"], out["close"], length=14)
-    out["ema20"] = ta.ema(out["close"], length=20)
-    out["ema50"] = ta.ema(out["close"], length=50)
-    out["ema200"] = ta.ema(out["close"], length=200)
-    out.reset_index(inplace=True)
+    # RSI
+    out["rsi14"] = RSIIndicator(close=out["close"], window=14).rsi()
+    # MACD
+    macd = MACD(close=out["close"], window_slow=26, window_fast=12, window_sign=9)
+    out["macd"] = macd.macd()
+    out["macd_signal"] = macd.macd_signal()
+    out["macd_hist"] = macd.macd_diff()
+    # ATR
+    atr = AverageTrueRange(high=out["high"], low=out["low"], close=out["close"], window=14)
+    out["atr14"] = atr.average_true_range()
+    # EMA
+    out["ema20"] = EMAIndicator(close=out["close"], window=20).ema_indicator()
+    out["ema50"] = EMAIndicator(close=out["close"], window=50).ema_indicator()
+    out["ema200"] = EMAIndicator(close=out["close"], window=200).ema_indicator()
     return out
+
 
 def macd_state(macd, sig):
     if pd.isna(macd) or pd.isna(sig): return "flat"
