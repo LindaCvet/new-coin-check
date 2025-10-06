@@ -7,7 +7,7 @@ on:
       - "COIN.txt"
 
 permissions:
-  contents: write  # lai varam iekomitēt OUTPUT.md
+  contents: write
 
 jobs:
   run-checker:
@@ -22,13 +22,12 @@ jobs:
           python-version: "3.11"
 
       - name: Install dependencies
-  run: |
-    python -m pip install --upgrade pip setuptools wheel
-    pip install -r requirements.txt
+        run: |
+          python -m pip install --upgrade pip setuptools wheel
+          pip install -r requirements.txt
 
       - name: Run checker
-        run: |
-          python scripts/check_coin.py
+        run: python scripts/check_coin.py
 
       - name: Commit OUTPUT.md
         run: |
