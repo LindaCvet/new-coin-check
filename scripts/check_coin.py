@@ -1,7 +1,9 @@
 import os, sys, subprocess
 import pandas as pd
 import numpy as np
-import pandas_ta as ta
+from ta.momentum import RSIIndicator
+from ta.trend import EMAIndicator, MACD
+from ta.volatility import AverageTrueRange
 import ccxt
 from datetime import datetime, timezone
 
