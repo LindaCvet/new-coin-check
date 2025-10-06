@@ -132,6 +132,14 @@ def pick_pair(ex, base: str, quote: str):
     if f"{base}/USD" in ex.symbols:
         return f"{base}/USD"
     raise ValueError(f"Pāris nav atrodams biržā: {base}/{quote}")
+def normalize_tf(exchange_id: str, tf: str) -> str:
+    """
+    Coinbase neatbalsta '4h'. Aizvietojam ar '6h'.
+    Pārējie TF paliek kā ir.
+    """
+    if exchange_id.lower() == "coinbase" and tf == "4h":
+        return "6h"
+    return tf
 
 def fetch_df(ex, symbol: str, tf="1h", limit=400):
     o = ex.fetch_ohlcv(symbol, timeframe=tf, limit=limit)
