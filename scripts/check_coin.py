@@ -39,6 +39,32 @@ def make_exchange(name: str):
         ex = ccxt.coinbase()
     ex.load_markets()
     return ex
+def compute_verdict(pct24h: float, trend_up: bool, macd1h: str, rsi1h: float, score_val: int) -> str:
+    """
+    Atgriež vienu no: 'Vērts pirkt', 'Vērts pirkt uz atvilkuma', 'Pagaidīt', 'Nav ieteicams'
+    """
+    anti = (pct24h >= ANTI_FOMO_PCT)
+    rsi = rsi1h or 50.0
+    macd_bull = (macd1h == "bullish")
+
+    # 1) Pārkarsis/FOMO vai lejuptrends ⇒ uz atvilkuma vai izvairīties
+    if anti or rsi >= 72:
+        # ja trend augšup + MACD bull → vēl ok, bet tikai uz atvilkuma
+        if trend_up and macd_bull and score_val >= 60:
+            return "Vērts pirkt uz atvilkuma"
+        # citādi riskants
+        return "Pagaidīt"
+
+    # 2) Spēcīgi bullish nosacījumi
+    if trend_up and macd_bull and 55 <= rsi <= 70 and score_val >= 70:
+        return "Vērts pirkt"
+
+    # 3) Vidējs setup — skatīties, bet nesteigties
+    if score_val >= 55 and (trend_up or macd_bull):
+        return "Pagaidīt"
+
+    # 4) Vāji signāli
+    return "Nav ieteicams"
 
 def analyze(base: str, exchange: str, quote: str):
     """
