@@ -22,14 +22,108 @@ def parse_coin_file(path="COIN.txt"):
     quote = (parts[2].upper() if len(parts) > 2 else "USDT")
     return symbol, exchange, quote
 
+# ===== REPLACE make_exchange + analyze START =====
 def make_exchange(name: str):
-    name = name.upper()
-    if name == "COINBASE":
-        ex = ccxt.coinbase()
-    else:
+    """
+    Izveido CCXT biržas instanci.
+    Noklusējums: COINBASE (jo Binance bieži blokē GitHub IP ar 451).
+    """
+    name = (name or "COINBASE").upper()
+    if name == "BINANCE":
         ex = ccxt.binance()
+    elif name == "BYBIT":
+        ex = ccxt.bybit()
+    elif name == "OKX":
+        ex = ccxt.okx()
+    else:
+        ex = ccxt.coinbase()
     ex.load_markets()
     return ex
+
+def analyze(base: str, exchange: str, quote: str):
+    """
+    Galvenā analīze ar drošu fall-back:
+    - Ja pieprasīta BINANCE, bet tiek saņemts 451/ExchangeNotAvailable,
+      automātiski pārslēdzamies uz COINBASE un QUOTE -> USD.
+    """
+    try:
+        ex = make_exchange(exchange)
+    except Exception:
+        # ļoti reti, bet ja pat load_markets neizdodas
+        exchange = "COINBASE"
+        quote = "USD"
+        ex = make_exchange(exchange)
+
+    # papildus: ja izvēlēta COINBASE, pielāgo quote uz USD (tur parasti nav USDT)
+    if exchange.upper() == "COINBASE" and quote.upper() == "USDT":
+        quote = "USD"
+
+    try:
+        pair = pick_pair(ex, base, quote)
+    except Exception as e:
+        # Ja BINANCE pair nav (vai 451 ietekmē symbol sarakstu),
+        # mēģinam automātiski uz COINBASE/USD
+        if exchange.upper() == "BINANCE":
+            exchange = "COINBASE"
+            quote = "USD"
+            ex = make_exchange(exchange)
+            pair = pick_pair(ex, base, quote)
+        else:
+            raise e
+
+    # ===== tālāk viss kā iepriekš =====
+    df1h = add_ind(fetch_df(ex, pair, "1h"))
+    df4h = add_ind(fetch_df(ex, pair, "4h"))
+    df1d = add_ind(fetch_df(ex, pair, "1d"))
+    df15 = add_ind(fetch_df(ex, pair, "15m"))
+
+    t = ex.fetch_ticker(pair)
+    last = float(t.get("last", t.get("close", 0)) or 0)
+    open_ = float(t.get("open", last) or 0)
+    pct24h = ((last - open_) / open_ * 100) if open_ else 0.0
+    vol24h = t.get("baseVolume") or t.get("quoteVolume") or "—"
+
+    c1, c4, cd = df1h.iloc[-1], df4h.iloc[-1], df1d.iloc[-1]
+    trend_up = (c1.close > c1.ema50) and (c4.close > c4.ema50) and (cd.close > cd.ema50)
+    macd1h = macd_state(c1.macd, c1.macd_signal)
+    s = score(trend_up, macd1h=="bullish", float(c1.rsi14 or 50), pct24h >= ANTI_FOMO_PCT)
+
+    c15 = df15.iloc[-1]
+    atr = float(c15.atr14 or 0)
+    price = float(c15.close or last)
+    sl = price - 1.5 * atr
+    tp1, tp2, tp3 = price + 1.0*atr, price + 2.0*atr, price + 3.0*atr
+
+    anti = (pct24h >= ANTI_FOMO_PCT)
+    setup = "Buy pullback" if anti else "Speculative breakout"
+    entry = "Pullback uz 20 EMA / virs 15m mini-range" if anti else "Breakout virs pēdējā 15m high ar apjomu"
+    risk = "vidējs"
+    if anti or (atr/price if price else 0) > 0.02:
+        risk = "augsts"
+    if (not anti) and price and atr/price < 0.005 and trend_up:
+        risk = "zems"
+
+    return {
+        "pair": pair,
+        "exchange": exchange,
+        "quote": quote,
+        "price": round(price, 8),
+        "pct24h": pct24h,
+        "vol24h": vol24h,
+        "trend": "↑" if trend_up else "↓",
+        "rsi1h": float(c1.rsi14 or np.nan),
+        "macd1h": macd1h,
+        "setup": setup,
+        "entry": entry,
+        "SL": round(sl, 6),
+        "TP1": round(tp1, 6),
+        "TP2": round(tp2, 6),
+        "TP3": round(tp3, 6),
+        "risk": risk,
+        "score": s,
+    }
+# ===== REPLACE make_exchange + analyze END =====
+
 
 def pick_pair(ex, base: str, quote: str):
     sym = f"{base}/{quote}"
