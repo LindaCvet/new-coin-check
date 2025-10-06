@@ -200,16 +200,15 @@ def analyze(base: str, exchange: str, quote: str):
     tp1, tp2, tp3 = price + 1.0*atr, price + 2.0*atr, price + 3.0*atr
 
     # Setup + Entry ar konkrētu cenu
-anti = (pct24h >= ANTI_FOMO_PCT)
-if anti:
-    setup = "Buy pullback"
-    entry_text = "Pullback uz 20 EMA vai -0.5×ATR"
-    entry_price = round(price - 0.5 * atr, 6)
-else:
-    setup = "Speculative breakout"
-    entry_text = "Breakout virs pēdējā 15m high ar apjomu"
-    entry_price = round(price + 0.5 * atr, 6)
-
+    anti = (pct24h >= ANTI_FOMO_PCT)
+    if anti:
+        setup = "Buy pullback"
+        entry_text = "Pullback uz 20 EMA vai -0.5×ATR"
+        entry_price = round(price - 0.5 * atr, 6)
+    else:
+        setup = "Speculative breakout"
+        entry_text = "Breakout virs pēdējā 15m high ar apjomu"
+        entry_price = round(price + 0.5 * atr, 6)
 
     # Riski
     risk = "vidējs"
@@ -230,7 +229,8 @@ else:
         "rsi1h": float(c1.rsi14 or np.nan),
         "macd1h": macd1h,
         "setup": setup,
-        "entry": entry,
+        "entry_text": entry_text,
+        "entry_price": entry_price,
         "SL": round(sl, 6),
         "TP1": round(tp1, 6),
         "TP2": round(tp2, 6),
@@ -254,7 +254,7 @@ def write_output(result: dict, coin_line: str, out_path="OUTPUT.md"):
 ### Ieteikums
 - **Verdikts:** {result['verdict']}
 - **Setup:** {result['setup']}
-- **Entry:** {result['entry']}
+- **Entry:** {result['entry_text']}  — **Cena:** `{result['entry_price']}`
 - **SL:** `{result['SL']}`
 - **TP1/TP2/TP3:** `{result['TP1']}` / `{result['TP2']}` / `{result['TP3']}`
 - **Risks:** {result['risk']} | **Score:** {result['score']}/100
