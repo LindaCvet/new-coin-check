@@ -199,9 +199,17 @@ def analyze(base: str, exchange: str, quote: str):
     sl = price - 1.5 * atr
     tp1, tp2, tp3 = price + 1.0*atr, price + 2.0*atr, price + 3.0*atr
 
-    anti = (pct24h >= ANTI_FOMO_PCT)
-    setup = "Buy pullback" if anti else "Speculative breakout"
-    entry = "Pullback uz 20 EMA / virs 15m mini-range" if anti else "Breakout virs pēdējā 15m high ar apjomu"
+    # Setup + Entry ar konkrētu cenu
+anti = (pct24h >= ANTI_FOMO_PCT)
+if anti:
+    setup = "Buy pullback"
+    entry_text = "Pullback uz 20 EMA vai -0.5×ATR"
+    entry_price = round(price - 0.5 * atr, 6)
+else:
+    setup = "Speculative breakout"
+    entry_text = "Breakout virs pēdējā 15m high ar apjomu"
+    entry_price = round(price + 0.5 * atr, 6)
+
 
     # Riski
     risk = "vidējs"
