@@ -1,11 +1,10 @@
 # TA Quick Checker (GitHub Actions)
-Ieraksti monētu `COIN.txt` (formāts: `SYMBOL [EXCHANGE] [QUOTE]`, piem. `BTC BINANCE USDT`), un GitHub Actions automātiski izveidos **OUTPUT.md** ar:
-- trendu, RSI/MACD,
-- ieteikumu (*Buy pullback* / *Speculative breakout* / gaidīt),
-- Entry/SL/TP (ATR-bāzēti),
-- riska birku un score.
+
+Ieraksti monētu `COIN.txt` (formāts: `SYMBOL [EXCHANGE] [QUOTE]`, piem. `BTC COINBASE USD`) un GitHub Actions automātiski ģenerēs **OUTPUT.md** ar:
+- trendu (↑/↓), RSI(1h), MACD(1h),
+- **Verdiktu** (*Vērts pirkt*, *Vērts pirkt uz atvilkuma*, *Pagaidīt*, *Nav ieteicams*),
+- Setup, Entry, **SL/TP1/TP2/TP3** (ATR bāzēti),
+- riska birku (*zems/vidējs/augsts*) un **Score** (0–100).
 
 ## Lietošana
-1) Rediģē `COIN.txt` (piem., `AVAX BINANCE USDT`) un **commit**.
-2) Pēc ~1–2 minūtēm repo parādīsies/atjaunosies `OUTPUT.md`.
-3) Var palaist arī manuāli: **Actions → TA Quick Checker → Run workflow**.
+1. Rediģē `COIN.txt`, piem.:
