@@ -142,10 +142,12 @@ def normalize_tf(exchange_id: str, tf: str) -> str:
     return tf
 
 def fetch_df(ex, symbol: str, tf="1h", limit=400):
+    tf = normalize_tf(ex.id, tf)
     o = ex.fetch_ohlcv(symbol, timeframe=tf, limit=limit)
     df = pd.DataFrame(o, columns=["ts","open","high","low","close","volume"])
     df["ts"] = pd.to_datetime(df["ts"], unit="ms", utc=True)
     return df
+
 
 def add_ind(df: pd.DataFrame):
     out = df.copy()
