@@ -2,166 +2,96 @@
 
 **Ievade (COIN.txt):**
 ```
-XPR COINBASE USD
-SOL COINBASE USD
-USDT COINBASE USD
-DOGE COINBASE USD
-PEPE COINBASE USD
-ADA COINBASE USD
-SHIB COINBASE USD
-DOT COINBASE USD
-LTC COINBASE USD
-XLM COINBASE USD
+SUI COINBASE USD
+BCH COINBASE USD
+HBAR COINBASE USD
+CRO COINBASE USD
+VET COINBASE USD
 ```
-**Laiks (UTC):** 2025-10-07 07:32 UTC
+**Laiks (UTC):** 2025-10-07 07:35 UTC
 
 ## TOP 3 darījumi
-**1. DOT/USD @ COINBASE** — Pagaidīt (zems, score 65)
-- Entry: `4.316324` | SL: `4.275029` | TP1: `4.326647`
-- Upside (TP1): **0.24%**, Downside (SL): **0.96%**, R:R **0.25**
+**1. VET/USD @ COINBASE** — Nav ieteicams (vidējs, score 50)
+- Entry: `0.02331` | SL: `0.023109` | TP1: `0.023361`
+- Upside (TP1): **0.22%**, Downside (SL): **0.86%**, R:R **0.25**
 
-**2. XLM/USD @ COINBASE** — Nav ieteicams (vidējs, score 50)
-- Entry: `0.403782` | SL: `0.400457` | TP1: `0.404614`
-- Upside (TP1): **0.21%**, Downside (SL): **0.82%**, R:R **0.25**
+**2. CRO/USD @ COINBASE** — Nav ieteicams (vidējs, score 50)
+- Entry: `0.207631` | SL: `0.205506` | TP1: `0.208162`
+- Upside (TP1): **0.26%**, Downside (SL): **1.02%**, R:R **0.25**
 
-**3. DOGE/USD @ COINBASE** — Nav ieteicams (vidējs, score 50)
-- Entry: `0.261362` | SL: `0.258394` | TP1: `0.262104`
-- Upside (TP1): **0.28%**, Downside (SL): **1.14%**, R:R **0.25**
+**3. HBAR/USD @ COINBASE** — Nav ieteicams (vidējs, score 50)
+- Entry: `0.227096` | SL: `0.224871` | TP1: `0.227652`
+- Upside (TP1): **0.24%**, Downside (SL): **0.98%**, R:R **0.25**
 
 ## Salīdzinājuma tabula (visi)
 | Pāris | Verdikts | Risks | Score | Entry | SL | TP1 | Upside% | Downside% | R:R | RSI(1h) | MACD | 24h% | Cena |
 |---|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---|---:|---:|
-| SOL/USD | Nav ieteicams | vidējs | 50 | 231.441439 | 229.355683 | 231.962878 | 0.23% | 0.90% | 0.25 | 42 | bearish | +0.00% | 230.92 |
-| USDT/USD | Nav ieteicams | vidējs | 50 | 1.000511 | 1.000268 | 1.000571 | 0.01% | 0.02% | 0.25 | 51 | bearish | +0.00% | 1.00045 |
-| DOGE/USD | Nav ieteicams | vidējs | 50 | 0.261362 | 0.258394 | 0.262104 | 0.28% | 1.14% | 0.25 | 43 | bearish | +0.00% | 0.26062 |
-| PEPE/USD | Nav ieteicams | vidējs | 50 | 1e-05 | 1e-05 | 1e-05 | 0.25% | 1.12% | 0.22 | 39 | bearish | +0.00% | 9.97e-06 |
-| ADA/USD | Nav ieteicams | vidējs | 50 | 0.859572 | 0.851684 | 0.861544 | 0.23% | 0.92% | 0.25 | 43 | bearish | +0.00% | 0.8576 |
-| SHIB/USD | Nav ieteicams | vidējs | 50 | 1.3e-05 | 1.3e-05 | 1.3e-05 | -1.94% | 2.86% | -0.68 | 43 | bearish | +0.00% | 1.27e-05 |
-| DOT/USD | Pagaidīt | zems | 65 | 4.316324 | 4.275029 | 4.326647 | 0.24% | 0.96% | 0.25 | 46 | bearish | +0.00% | 4.306 |
-| LTC/USD | Nav ieteicams | vidējs | 50 | 118.155711 | 117.212867 | 118.391422 | 0.20% | 0.80% | 0.25 | 39 | bearish | +0.00% | 117.92 |
-| XLM/USD | Nav ieteicams | vidējs | 50 | 0.403782 | 0.400457 | 0.404614 | 0.21% | 0.82% | 0.25 | 43 | bearish | +0.00% | 0.402951 |
-| XPR COINBASE USD | Kļūda: Pāris nav atrodams biržā: XPR/USD | — | 0 | nan | nan | nan | — | — | — | nan | — | +nan% | nan |
+| SUI/USD | Nav ieteicams | vidējs | 50 | 3.612059 | 3.578623 | 3.620418 | 0.23% | 0.93% | 0.25 | 45 | bearish | +0.00% | 3.6037 |
+| BCH/USD | Nav ieteicams | vidējs | 50 | 596.406996 | 593.339011 | 597.173993 | 0.13% | 0.51% | 0.25 | 43 | bearish | +0.00% | 595.64 |
+| HBAR/USD | Nav ieteicams | vidējs | 50 | 0.227096 | 0.224871 | 0.227652 | 0.24% | 0.98% | 0.25 | 49 | bearish | +0.00% | 0.22654 |
+| CRO/USD | Nav ieteicams | vidējs | 50 | 0.207631 | 0.205506 | 0.208162 | 0.26% | 1.02% | 0.25 | 38 | bearish | +0.00% | 0.2071 |
+| VET/USD | Nav ieteicams | vidējs | 50 | 0.02331 | 0.023109 | 0.023361 | 0.22% | 0.86% | 0.25 | 43 | bearish | +0.00% | 0.02326 |
 
 ---
 
-## SOL/USD @ COINBASE
-- Cena: **230.92** | 24h: **+0.00%** | Vol: **—**
-- Konteksts: Trend **↓** | RSI(1h) **42** | MACD(1h) **bearish**
+## SUI/USD @ COINBASE
+- Cena: **3.6037** | 24h: **+0.00%** | Vol: **—**
+- Konteksts: Trend **↓** | RSI(1h) **45** | MACD(1h) **bearish**
 
 ### Ieteikums
 - **Verdikts:** Nav ieteicams
 - **Setup:** Speculative breakout
-- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `231.441439`
-- **SL:** `229.355683`
-- **TP1/TP2/TP3:** `231.962878` / `233.005756` / `234.048634`
+- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `3.612059`
+- **SL:** `3.578623`
+- **TP1/TP2/TP3:** `3.620418` / `3.637136` / `3.653854`
 - **Risks:** vidējs | **Score:** 50/100
 
-## USDT/USD @ COINBASE
-- Cena: **1.00045** | 24h: **+0.00%** | Vol: **—**
-- Konteksts: Trend **↓** | RSI(1h) **51** | MACD(1h) **bearish**
-
-### Ieteikums
-- **Verdikts:** Nav ieteicams
-- **Setup:** Speculative breakout
-- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `1.000511`
-- **SL:** `1.000268`
-- **TP1/TP2/TP3:** `1.000571` / `1.000692` / `1.000814`
-- **Risks:** vidējs | **Score:** 50/100
-
-## DOGE/USD @ COINBASE
-- Cena: **0.26062** | 24h: **+0.00%** | Vol: **—**
+## BCH/USD @ COINBASE
+- Cena: **595.64** | 24h: **+0.00%** | Vol: **—**
 - Konteksts: Trend **↓** | RSI(1h) **43** | MACD(1h) **bearish**
 
 ### Ieteikums
 - **Verdikts:** Nav ieteicams
 - **Setup:** Speculative breakout
-- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `0.261362`
-- **SL:** `0.258394`
-- **TP1/TP2/TP3:** `0.262104` / `0.263589` / `0.265073`
+- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `596.406996`
+- **SL:** `593.339011`
+- **TP1/TP2/TP3:** `597.173993` / `598.707985` / `600.241978`
 - **Risks:** vidējs | **Score:** 50/100
 
-## PEPE/USD @ COINBASE
-- Cena: **9.97e-06** | 24h: **+0.00%** | Vol: **—**
-- Konteksts: Trend **↓** | RSI(1h) **39** | MACD(1h) **bearish**
+## HBAR/USD @ COINBASE
+- Cena: **0.22654** | 24h: **+0.00%** | Vol: **—**
+- Konteksts: Trend **↓** | RSI(1h) **49** | MACD(1h) **bearish**
 
 ### Ieteikums
 - **Verdikts:** Nav ieteicams
 - **Setup:** Speculative breakout
-- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `1e-05`
-- **SL:** `1e-05`
-- **TP1/TP2/TP3:** `1e-05` / `1e-05` / `1e-05`
+- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `0.227096`
+- **SL:** `0.224871`
+- **TP1/TP2/TP3:** `0.227652` / `0.228765` / `0.229877`
 - **Risks:** vidējs | **Score:** 50/100
 
-## ADA/USD @ COINBASE
-- Cena: **0.8576** | 24h: **+0.00%** | Vol: **—**
+## CRO/USD @ COINBASE
+- Cena: **0.2071** | 24h: **+0.00%** | Vol: **—**
+- Konteksts: Trend **↓** | RSI(1h) **38** | MACD(1h) **bearish**
+
+### Ieteikums
+- **Verdikts:** Nav ieteicams
+- **Setup:** Speculative breakout
+- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `0.207631`
+- **SL:** `0.205506`
+- **TP1/TP2/TP3:** `0.208162` / `0.209225` / `0.210287`
+- **Risks:** vidējs | **Score:** 50/100
+
+## VET/USD @ COINBASE
+- Cena: **0.02326** | 24h: **+0.00%** | Vol: **—**
 - Konteksts: Trend **↓** | RSI(1h) **43** | MACD(1h) **bearish**
 
 ### Ieteikums
 - **Verdikts:** Nav ieteicams
 - **Setup:** Speculative breakout
-- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `0.859572`
-- **SL:** `0.851684`
-- **TP1/TP2/TP3:** `0.861544` / `0.865488` / `0.869432`
+- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `0.02331`
+- **SL:** `0.023109`
+- **TP1/TP2/TP3:** `0.023361` / `0.023461` / `0.023562`
 - **Risks:** vidējs | **Score:** 50/100
-
-## SHIB/USD @ COINBASE
-- Cena: **1.27e-05** | 24h: **+0.00%** | Vol: **—**
-- Konteksts: Trend **↓** | RSI(1h) **43** | MACD(1h) **bearish**
-
-### Ieteikums
-- **Verdikts:** Nav ieteicams
-- **Setup:** Speculative breakout
-- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `1.3e-05`
-- **SL:** `1.3e-05`
-- **TP1/TP2/TP3:** `1.3e-05` / `1.3e-05` / `1.3e-05`
-- **Risks:** vidējs | **Score:** 50/100
-
-## DOT/USD @ COINBASE
-- Cena: **4.306** | 24h: **+0.00%** | Vol: **—**
-- Konteksts: Trend **↑** | RSI(1h) **46** | MACD(1h) **bearish**
-
-### Ieteikums
-- **Verdikts:** Pagaidīt
-- **Setup:** Speculative breakout
-- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `4.316324`
-- **SL:** `4.275029`
-- **TP1/TP2/TP3:** `4.326647` / `4.347295` / `4.367942`
-- **Risks:** zems | **Score:** 65/100
-
-## LTC/USD @ COINBASE
-- Cena: **117.92** | 24h: **+0.00%** | Vol: **—**
-- Konteksts: Trend **↓** | RSI(1h) **39** | MACD(1h) **bearish**
-
-### Ieteikums
-- **Verdikts:** Nav ieteicams
-- **Setup:** Speculative breakout
-- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `118.155711`
-- **SL:** `117.212867`
-- **TP1/TP2/TP3:** `118.391422` / `118.862844` / `119.334266`
-- **Risks:** vidējs | **Score:** 50/100
-
-## XLM/USD @ COINBASE
-- Cena: **0.402951** | 24h: **+0.00%** | Vol: **—**
-- Konteksts: Trend **↓** | RSI(1h) **43** | MACD(1h) **bearish**
-
-### Ieteikums
-- **Verdikts:** Nav ieteicams
-- **Setup:** Speculative breakout
-- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `0.403782`
-- **SL:** `0.400457`
-- **TP1/TP2/TP3:** `0.404614` / `0.406277` / `0.40794`
-- **Risks:** vidējs | **Score:** 50/100
-
-## XPR COINBASE USD @ —
-- Cena: **nan** | 24h: **+nan%** | Vol: **—**
-- Konteksts: Trend **—** | RSI(1h) **nan** | MACD(1h) **—**
-
-### Ieteikums
-- **Verdikts:** Kļūda: Pāris nav atrodams biržā: XPR/USD
-- **Setup:** —
-- **Entry:** —  — **Cena:** `nan`
-- **SL:** `nan`
-- **TP1/TP2/TP3:** `nan` / `nan` / `nan`
-- **Risks:** — | **Score:** 0/100
 
 *Ne finanšu padoms.*
