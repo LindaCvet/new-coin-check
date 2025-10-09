@@ -11,57 +11,57 @@ OCEAN COINBASE USD
 ALICE COINBASE USD
 BAT COINBASE USD
 ```
-**Laiks (UTC):** 2025-10-09 12:40 UTC
+**Laiks (UTC):** 2025-10-09 12:42 UTC
 
 ## TOP 3 darījumi
-**1. ALICE/USD @ COINBASE** — Vērts pirkt (vidējs, score 85)
-- Entry: `0.381584` | SL: `0.371248` | TP1: `0.384168`
-- Upside (TP1): **0.68%**, Downside (SL): **2.71%**, R:R **0.25**
+**1. CELR/USD @ COINBASE** — Vērts pirkt (vidējs, score 85)
+- Entry: `0.007887` | SL: `0.007778` | TP1: `0.007915`
+- Upside (TP1): **0.35%**, Downside (SL): **1.38%**, R:R **0.25**
 
-**2. HNT/USD @ COINBASE** — Vērts pirkt (vidējs, score 85)
-- Entry: `2.764615` | SL: `2.686155` | TP1: `2.78423`
-- Upside (TP1): **0.71%**, Downside (SL): **2.84%**, R:R **0.25**
+**2. BAT/USD @ COINBASE** — Vērts pirkt (vidējs, score 85)
+- Entry: `0.157282` | SL: `0.154273` | TP1: `0.158034`
+- Upside (TP1): **0.48%**, Downside (SL): **1.91%**, R:R **0.25**
 
-**3. BAT/USD @ COINBASE** — Vērts pirkt (vidējs, score 85)
-- Entry: `0.156926` | SL: `0.153943` | TP1: `0.157672`
-- Upside (TP1): **0.48%**, Downside (SL): **1.90%**, R:R **0.25**
+**3. HNT/USD @ COINBASE** — Vērts pirkt (vidējs, score 85)
+- Entry: `2.772222` | SL: `2.691333` | TP1: `2.792445`
+- Upside (TP1): **0.73%**, Downside (SL): **2.92%**, R:R **0.25**
 
 ## Salīdzinājuma tabula (visi)
 | Pāris | Verdikts | Risks | Score | Entry | SL | TP1 | Upside% | Downside% | R:R | RSI(1h) | MACD | 24h% | Cena |
 |---|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---|---:|---:|
-| CLV/USD | Vērts pirkt uz atvilkuma | augsts | 75 | 0.023669 | 0.020593 | 0.024438 | 3.25% | 13.00% | 0.25 | 86 | bullish | +0.00% | 0.0229 |
-| HNT/USD | Vērts pirkt | vidējs | 85 | 2.764615 | 2.686155 | 2.78423 | 0.71% | 2.84% | 0.25 | 67 | bullish | +0.00% | 2.745 |
-| COTI/USD | Pagaidīt | vidējs | 65 | 0.050973 | 0.049081 | 0.051446 | 0.93% | 3.71% | 0.25 | 53 | bearish | +0.00% | 0.0505 |
-| CELR/USD | Vērts pirkt | vidējs | 85 | 0.007867 | 0.00776 | 0.007893 | 0.34% | 1.36% | 0.25 | 63 | bullish | +0.00% | 0.00784 |
-| OCEAN/USD | Pagaidīt | vidējs | 70 | 0.26472 | 0.25544 | 0.26704 | 0.88% | 3.51% | 0.25 | 69 | bullish | +0.00% | 0.2624 |
-| ALICE/USD | Vērts pirkt | vidējs | 85 | 0.381584 | 0.371248 | 0.384168 | 0.68% | 2.71% | 0.25 | 62 | bullish | +0.00% | 0.379 |
-| BAT/USD | Vērts pirkt | vidējs | 85 | 0.156926 | 0.153943 | 0.157672 | 0.48% | 1.90% | 0.25 | 62 | bullish | +0.00% | 0.15618 |
+| CLV/USD | Vērts pirkt uz atvilkuma | augsts | 75 | 0.023169 | 0.020093 | 0.023938 | 3.32% | 13.28% | 0.25 | 85 | bullish | +0.00% | 0.0224 |
+| HNT/USD | Vērts pirkt | vidējs | 85 | 2.772222 | 2.691333 | 2.792445 | 0.73% | 2.92% | 0.25 | 69 | bullish | +0.00% | 2.752 |
+| COTI/USD | Pagaidīt | vidējs | 65 | 0.05098 | 0.049059 | 0.05146 | 0.94% | 3.77% | 0.25 | 53 | bearish | +0.00% | 0.0505 |
+| CELR/USD | Vērts pirkt | vidējs | 85 | 0.007887 | 0.007778 | 0.007915 | 0.35% | 1.38% | 0.25 | 64 | bullish | +0.00% | 0.00786 |
+| OCEAN/USD | Pagaidīt | vidējs | 60 | 0.269384 | 0.259047 | 0.271969 | 0.96% | 3.84% | 0.25 | 71 | bullish | +0.00% | 0.2668 |
+| ALICE/USD | Vērts pirkt | vidējs | 85 | 0.384584 | 0.374248 | 0.387168 | 0.67% | 2.69% | 0.25 | 64 | bullish | +0.00% | 0.382 |
+| BAT/USD | Vērts pirkt | vidējs | 85 | 0.157282 | 0.154273 | 0.158034 | 0.48% | 1.91% | 0.25 | 63 | bullish | +0.00% | 0.15653 |
 | BENJI COINBASE USD | Kļūda: Pāris nav atrodams biržā: BENJI/USD | — | 0 | nan | nan | nan | — | — | — | nan | — | +nan% | nan |
 
 ---
 
 ## CLV/USD @ COINBASE
-- Cena: **0.0229** | 24h: **+0.00%** | Vol: **—**
-- Konteksts: Trend **↑** | RSI(1h) **86** | MACD(1h) **bullish**
+- Cena: **0.0224** | 24h: **+0.00%** | Vol: **—**
+- Konteksts: Trend **↑** | RSI(1h) **85** | MACD(1h) **bullish**
 
 ### Ieteikums
 - **Verdikts:** Vērts pirkt uz atvilkuma
 - **Setup:** Speculative breakout
-- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `0.023669`
-- **SL:** `0.020593`
-- **TP1/TP2/TP3:** `0.024438` / `0.025977` / `0.027515`
+- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `0.023169`
+- **SL:** `0.020093`
+- **TP1/TP2/TP3:** `0.023938` / `0.025477` / `0.027015`
 - **Risks:** augsts | **Score:** 75/100
 
 ## HNT/USD @ COINBASE
-- Cena: **2.745** | 24h: **+0.00%** | Vol: **—**
-- Konteksts: Trend **↑** | RSI(1h) **67** | MACD(1h) **bullish**
+- Cena: **2.752** | 24h: **+0.00%** | Vol: **—**
+- Konteksts: Trend **↑** | RSI(1h) **69** | MACD(1h) **bullish**
 
 ### Ieteikums
 - **Verdikts:** Vērts pirkt
 - **Setup:** Speculative breakout
-- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `2.764615`
-- **SL:** `2.686155`
-- **TP1/TP2/TP3:** `2.78423` / `2.823461` / `2.862691`
+- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `2.772222`
+- **SL:** `2.691333`
+- **TP1/TP2/TP3:** `2.792445` / `2.832889` / `2.873334`
 - **Risks:** vidējs | **Score:** 85/100
 
 ## COTI/USD @ COINBASE
@@ -71,57 +71,57 @@ BAT COINBASE USD
 ### Ieteikums
 - **Verdikts:** Pagaidīt
 - **Setup:** Speculative breakout
-- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `0.050973`
-- **SL:** `0.049081`
-- **TP1/TP2/TP3:** `0.051446` / `0.052392` / `0.053339`
+- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `0.05098`
+- **SL:** `0.049059`
+- **TP1/TP2/TP3:** `0.05146` / `0.052421` / `0.053381`
 - **Risks:** vidējs | **Score:** 65/100
 
 ## CELR/USD @ COINBASE
-- Cena: **0.00784** | 24h: **+0.00%** | Vol: **—**
+- Cena: **0.00786** | 24h: **+0.00%** | Vol: **—**
+- Konteksts: Trend **↑** | RSI(1h) **64** | MACD(1h) **bullish**
+
+### Ieteikums
+- **Verdikts:** Vērts pirkt
+- **Setup:** Speculative breakout
+- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `0.007887`
+- **SL:** `0.007778`
+- **TP1/TP2/TP3:** `0.007915` / `0.00797` / `0.008024`
+- **Risks:** vidējs | **Score:** 85/100
+
+## OCEAN/USD @ COINBASE
+- Cena: **0.2668** | 24h: **+0.00%** | Vol: **—**
+- Konteksts: Trend **↓** | RSI(1h) **71** | MACD(1h) **bullish**
+
+### Ieteikums
+- **Verdikts:** Pagaidīt
+- **Setup:** Speculative breakout
+- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `0.269384`
+- **SL:** `0.259047`
+- **TP1/TP2/TP3:** `0.271969` / `0.277137` / `0.282306`
+- **Risks:** vidējs | **Score:** 60/100
+
+## ALICE/USD @ COINBASE
+- Cena: **0.382** | 24h: **+0.00%** | Vol: **—**
+- Konteksts: Trend **↑** | RSI(1h) **64** | MACD(1h) **bullish**
+
+### Ieteikums
+- **Verdikts:** Vērts pirkt
+- **Setup:** Speculative breakout
+- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `0.384584`
+- **SL:** `0.374248`
+- **TP1/TP2/TP3:** `0.387168` / `0.392336` / `0.397504`
+- **Risks:** vidējs | **Score:** 85/100
+
+## BAT/USD @ COINBASE
+- Cena: **0.15653** | 24h: **+0.00%** | Vol: **—**
 - Konteksts: Trend **↑** | RSI(1h) **63** | MACD(1h) **bullish**
 
 ### Ieteikums
 - **Verdikts:** Vērts pirkt
 - **Setup:** Speculative breakout
-- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `0.007867`
-- **SL:** `0.00776`
-- **TP1/TP2/TP3:** `0.007893` / `0.007947` / `0.008`
-- **Risks:** vidējs | **Score:** 85/100
-
-## OCEAN/USD @ COINBASE
-- Cena: **0.2624** | 24h: **+0.00%** | Vol: **—**
-- Konteksts: Trend **↓** | RSI(1h) **69** | MACD(1h) **bullish**
-
-### Ieteikums
-- **Verdikts:** Pagaidīt
-- **Setup:** Speculative breakout
-- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `0.26472`
-- **SL:** `0.25544`
-- **TP1/TP2/TP3:** `0.26704` / `0.27168` / `0.27632`
-- **Risks:** vidējs | **Score:** 70/100
-
-## ALICE/USD @ COINBASE
-- Cena: **0.379** | 24h: **+0.00%** | Vol: **—**
-- Konteksts: Trend **↑** | RSI(1h) **62** | MACD(1h) **bullish**
-
-### Ieteikums
-- **Verdikts:** Vērts pirkt
-- **Setup:** Speculative breakout
-- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `0.381584`
-- **SL:** `0.371248`
-- **TP1/TP2/TP3:** `0.384168` / `0.389336` / `0.394504`
-- **Risks:** vidējs | **Score:** 85/100
-
-## BAT/USD @ COINBASE
-- Cena: **0.15618** | 24h: **+0.00%** | Vol: **—**
-- Konteksts: Trend **↑** | RSI(1h) **62** | MACD(1h) **bullish**
-
-### Ieteikums
-- **Verdikts:** Vērts pirkt
-- **Setup:** Speculative breakout
-- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `0.156926`
-- **SL:** `0.153943`
-- **TP1/TP2/TP3:** `0.157672` / `0.159163` / `0.160655`
+- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `0.157282`
+- **SL:** `0.154273`
+- **TP1/TP2/TP3:** `0.158034` / `0.159539` / `0.161043`
 - **Risks:** vidējs | **Score:** 85/100
 
 ## BENJI COINBASE USD @ —
