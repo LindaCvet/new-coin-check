@@ -10,50 +10,50 @@ ARPA COINBASE USD
 ALICE COINBASE USD
 HOPR COINBASE USD
 OCEAN COINBASE USD
-DYDX COINBASE USD
-IO COINBASE USD
+TRUMP COINBASE USD
+BTC COINBASE USD
 ```
-**Laiks (UTC):** 2025-10-14 04:15 UTC
+**Laiks (UTC):** 2025-10-14 04:17 UTC
 
 ## TOP 3 darījumi
 **1. CAKE/USD @ COINBASE** — Vērts pirkt (vidējs, score 85)
-- Entry: `3.739217` | SL: `3.626349` | TP1: `3.767434`
-- Upside (TP1): **0.75%**, Downside (SL): **3.02%**, R:R **0.25**
+- Entry: `3.737487` | SL: `3.631539` | TP1: `3.763974`
+- Upside (TP1): **0.71%**, Downside (SL): **2.83%**, R:R **0.25**
 
 **2. TAO/USD @ COINBASE** — Pagaidīt (vidējs, score 75)
-- Entry: `432.474725` | SL: `417.615825` | TP1: `436.18945`
-- Upside (TP1): **0.86%**, Downside (SL): **3.44%**, R:R **0.25**
+- Entry: `432.737245` | SL: `418.788266` | TP1: `436.224489`
+- Upside (TP1): **0.81%**, Downside (SL): **3.22%**, R:R **0.25**
 
 **3. HOPR/USD @ COINBASE** — Pagaidīt (vidējs, score 70)
-- Entry: `0.043225` | SL: `0.042724` | TP1: `0.043351`
-- Upside (TP1): **0.29%**, Downside (SL): **1.16%**, R:R **0.25**
+- Entry: `0.043216` | SL: `0.042751` | TP1: `0.043333`
+- Upside (TP1): **0.27%**, Downside (SL): **1.08%**, R:R **0.25**
 
 ## Salīdzinājuma tabula (visi)
 | Pāris | Verdikts | Risks | Score | Entry | SL | TP1 | Upside% | Downside% | R:R | RSI(1h) | MACD | 24h% | Cena |
 |---|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---|---:|---:|
-| ETH/USD | Nav ieteicams | vidējs | 50 | 4165.115521 | 4117.013438 | 4177.141042 | 0.29% | 1.15% | 0.25 | 48 | bearish | +0.00% | 4153.09 |
-| CAKE/USD | Vērts pirkt | vidējs | 85 | 3.739217 | 3.626349 | 3.767434 | 0.75% | 3.02% | 0.25 | 64 | bullish | +0.00% | 3.711 |
-| RENDER/USD | Nav ieteicams | vidējs | 60 | 2.990425 | 2.924724 | 3.006851 | 0.55% | 2.20% | 0.25 | 58 | bearish | +0.00% | 2.974 |
-| TAO/USD | Pagaidīt | vidējs | 75 | 432.474725 | 417.615825 | 436.18945 | 0.86% | 3.44% | 0.25 | 57 | bearish | +0.00% | 428.76 |
-| ARPA/USD | Pagaidīt | augsts | 70 | 0.021357 | 0.017929 | 0.022214 | 4.01% | 16.05% | 0.25 | 69 | bullish | +0.00% | 0.0205 |
-| ALICE/USD | Pagaidīt | augsts | 75 | 0.462145 | 0.429566 | 0.47029 | 1.76% | 7.05% | 0.25 | 61 | bearish | +0.00% | 0.454 |
-| HOPR/USD | Pagaidīt | vidējs | 70 | 0.043225 | 0.042724 | 0.043351 | 0.29% | 1.16% | 0.25 | 66 | bullish | +0.00% | 0.0431 |
+| ETH/USD | Nav ieteicams | vidējs | 50 | 4165.838698 | 4120.483906 | 4177.177396 | 0.27% | 1.09% | 0.25 | 48 | bearish | +0.00% | 4154.5 |
+| CAKE/USD | Vērts pirkt | vidējs | 85 | 3.737487 | 3.631539 | 3.763974 | 0.71% | 2.83% | 0.25 | 64 | bullish | +0.00% | 3.711 |
+| RENDER/USD | Nav ieteicams | vidējs | 60 | 2.989467 | 2.9276 | 3.004933 | 0.52% | 2.07% | 0.25 | 58 | bearish | +0.00% | 2.974 |
+| TAO/USD | Pagaidīt | vidējs | 75 | 432.737245 | 418.788266 | 436.224489 | 0.81% | 3.22% | 0.25 | 58 | bearish | +0.00% | 429.25 |
+| ARPA/USD | Pagaidīt | augsts | 70 | 0.021257 | 0.017829 | 0.022114 | 4.03% | 16.13% | 0.25 | 69 | bullish | +0.00% | 0.0204 |
+| ALICE/USD | Pagaidīt | augsts | 75 | 0.457395 | 0.423816 | 0.46579 | 1.84% | 7.34% | 0.25 | 60 | bearish | +0.00% | 0.449 |
+| HOPR/USD | Pagaidīt | vidējs | 70 | 0.043216 | 0.042751 | 0.043333 | 0.27% | 1.08% | 0.25 | 66 | bullish | +0.00% | 0.0431 |
 | OCEAN/USD | Pagaidīt | augsts | 65 | 0.273654 | 0.262237 | 0.276509 | 1.04% | 4.17% | 0.25 | 53 | bearish | +0.00% | 0.2708 |
-| IO/USD | Nav ieteicams | vidējs | 60 | 0.381707 | 0.374878 | 0.383414 | 0.45% | 1.79% | 0.25 | 57 | bearish | +0.00% | 0.38 |
-| DYDX COINBASE USD | Kļūda: Pāris nav atrodams biržā: DYDX/USD | — | 0 | nan | nan | nan | — | — | — | nan | — | +nan% | nan |
+| TRUMP/USD | Nav ieteicams | vidējs | 50 | 6.355364 | 6.293908 | 6.370728 | 0.24% | 0.97% | 0.25 | 46 | bearish | +0.00% | 6.34 |
+| BTC/USD | Nav ieteicams | vidējs | 50 | 113664.973765 | 113076.958706 | 113811.977529 | 0.13% | 0.52% | 0.25 | 38 | bearish | +0.00% | 113517.97 |
 
 ---
 
 ## ETH/USD @ COINBASE
-- Cena: **4153.09** | 24h: **+0.00%** | Vol: **—**
+- Cena: **4154.5** | 24h: **+0.00%** | Vol: **—**
 - Konteksts: Trend **↓** | RSI(1h) **48** | MACD(1h) **bearish**
 
 ### Ieteikums
 - **Verdikts:** Nav ieteicams
 - **Setup:** Speculative breakout
-- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `4165.115521`
-- **SL:** `4117.013438`
-- **TP1/TP2/TP3:** `4177.141042` / `4201.192083` / `4225.243125`
+- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `4165.838698`
+- **SL:** `4120.483906`
+- **TP1/TP2/TP3:** `4177.177396` / `4199.854791` / `4222.532187`
 - **Risks:** vidējs | **Score:** 50/100
 
 ## CAKE/USD @ COINBASE
@@ -63,9 +63,9 @@ IO COINBASE USD
 ### Ieteikums
 - **Verdikts:** Vērts pirkt
 - **Setup:** Speculative breakout
-- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `3.739217`
-- **SL:** `3.626349`
-- **TP1/TP2/TP3:** `3.767434` / `3.823867` / `3.880301`
+- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `3.737487`
+- **SL:** `3.631539`
+- **TP1/TP2/TP3:** `3.763974` / `3.816948` / `3.869923`
 - **Risks:** vidējs | **Score:** 85/100
 
 ## RENDER/USD @ COINBASE
@@ -75,45 +75,45 @@ IO COINBASE USD
 ### Ieteikums
 - **Verdikts:** Nav ieteicams
 - **Setup:** Speculative breakout
-- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `2.990425`
-- **SL:** `2.924724`
-- **TP1/TP2/TP3:** `3.006851` / `3.039702` / `3.072553`
+- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `2.989467`
+- **SL:** `2.9276`
+- **TP1/TP2/TP3:** `3.004933` / `3.035866` / `3.066799`
 - **Risks:** vidējs | **Score:** 60/100
 
 ## TAO/USD @ COINBASE
-- Cena: **428.76** | 24h: **+0.00%** | Vol: **—**
-- Konteksts: Trend **↑** | RSI(1h) **57** | MACD(1h) **bearish**
+- Cena: **429.25** | 24h: **+0.00%** | Vol: **—**
+- Konteksts: Trend **↑** | RSI(1h) **58** | MACD(1h) **bearish**
 
 ### Ieteikums
 - **Verdikts:** Pagaidīt
 - **Setup:** Speculative breakout
-- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `432.474725`
-- **SL:** `417.615825`
-- **TP1/TP2/TP3:** `436.18945` / `443.618899` / `451.048349`
+- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `432.737245`
+- **SL:** `418.788266`
+- **TP1/TP2/TP3:** `436.224489` / `443.198978` / `450.173467`
 - **Risks:** vidējs | **Score:** 75/100
 
 ## ARPA/USD @ COINBASE
-- Cena: **0.0205** | 24h: **+0.00%** | Vol: **—**
+- Cena: **0.0204** | 24h: **+0.00%** | Vol: **—**
 - Konteksts: Trend **↓** | RSI(1h) **69** | MACD(1h) **bullish**
 
 ### Ieteikums
 - **Verdikts:** Pagaidīt
 - **Setup:** Speculative breakout
-- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `0.021357`
-- **SL:** `0.017929`
-- **TP1/TP2/TP3:** `0.022214` / `0.023928` / `0.025642`
+- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `0.021257`
+- **SL:** `0.017829`
+- **TP1/TP2/TP3:** `0.022114` / `0.023828` / `0.025542`
 - **Risks:** augsts | **Score:** 70/100
 
 ## ALICE/USD @ COINBASE
-- Cena: **0.454** | 24h: **+0.00%** | Vol: **—**
-- Konteksts: Trend **↑** | RSI(1h) **61** | MACD(1h) **bearish**
+- Cena: **0.449** | 24h: **+0.00%** | Vol: **—**
+- Konteksts: Trend **↑** | RSI(1h) **60** | MACD(1h) **bearish**
 
 ### Ieteikums
 - **Verdikts:** Pagaidīt
 - **Setup:** Speculative breakout
-- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `0.462145`
-- **SL:** `0.429566`
-- **TP1/TP2/TP3:** `0.47029` / `0.486579` / `0.502869`
+- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `0.457395`
+- **SL:** `0.423816`
+- **TP1/TP2/TP3:** `0.46579` / `0.482579` / `0.499369`
 - **Risks:** augsts | **Score:** 75/100
 
 ## HOPR/USD @ COINBASE
@@ -123,9 +123,9 @@ IO COINBASE USD
 ### Ieteikums
 - **Verdikts:** Pagaidīt
 - **Setup:** Speculative breakout
-- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `0.043225`
-- **SL:** `0.042724`
-- **TP1/TP2/TP3:** `0.043351` / `0.043601` / `0.043852`
+- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `0.043216`
+- **SL:** `0.042751`
+- **TP1/TP2/TP3:** `0.043333` / `0.043565` / `0.043798`
 - **Risks:** vidējs | **Score:** 70/100
 
 ## OCEAN/USD @ COINBASE
@@ -140,28 +140,28 @@ IO COINBASE USD
 - **TP1/TP2/TP3:** `0.276509` / `0.282218` / `0.287927`
 - **Risks:** augsts | **Score:** 65/100
 
-## IO/USD @ COINBASE
-- Cena: **0.38** | 24h: **+0.00%** | Vol: **—**
-- Konteksts: Trend **↓** | RSI(1h) **57** | MACD(1h) **bearish**
+## TRUMP/USD @ COINBASE
+- Cena: **6.34** | 24h: **+0.00%** | Vol: **—**
+- Konteksts: Trend **↓** | RSI(1h) **46** | MACD(1h) **bearish**
 
 ### Ieteikums
 - **Verdikts:** Nav ieteicams
 - **Setup:** Speculative breakout
-- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `0.381707`
-- **SL:** `0.374878`
-- **TP1/TP2/TP3:** `0.383414` / `0.386829` / `0.390243`
-- **Risks:** vidējs | **Score:** 60/100
+- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `6.355364`
+- **SL:** `6.293908`
+- **TP1/TP2/TP3:** `6.370728` / `6.401456` / `6.432184`
+- **Risks:** vidējs | **Score:** 50/100
 
-## DYDX COINBASE USD @ —
-- Cena: **nan** | 24h: **+nan%** | Vol: **—**
-- Konteksts: Trend **—** | RSI(1h) **nan** | MACD(1h) **—**
+## BTC/USD @ COINBASE
+- Cena: **113517.97** | 24h: **+0.00%** | Vol: **—**
+- Konteksts: Trend **↓** | RSI(1h) **38** | MACD(1h) **bearish**
 
 ### Ieteikums
-- **Verdikts:** Kļūda: Pāris nav atrodams biržā: DYDX/USD
-- **Setup:** —
-- **Entry:** —  — **Cena:** `nan`
-- **SL:** `nan`
-- **TP1/TP2/TP3:** `nan` / `nan` / `nan`
-- **Risks:** — | **Score:** 0/100
+- **Verdikts:** Nav ieteicams
+- **Setup:** Speculative breakout
+- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `113664.973765`
+- **SL:** `113076.958706`
+- **TP1/TP2/TP3:** `113811.977529` / `114105.985058` / `114399.992587`
+- **Risks:** vidējs | **Score:** 50/100
 
 *Ne finanšu padoms.*
