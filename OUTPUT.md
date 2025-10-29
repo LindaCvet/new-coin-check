@@ -2,82 +2,152 @@
 
 **Ievade (COIN.txt):**
 ```
-PENGU COINBASE USD
+MELANIA COINBASE USD
 TRUMP COINBASE USD
-BTC COINBASE USD
-ETH COINBASE USD
+CTC COINBASE USD
+LCX COINBASE USD
+BERA COINBASE USD
+VVV COINBASE USD
+ZRO COINBASE USD
+ME COINBASE USD
+WLFI COINBASE USD
 ```
-**Laiks (UTC):** 2025-10-20 15:46 UTC
+**Laiks (UTC):** 2025-10-29 08:29 UTC
 
 ## TOP 3 darījumi
-**1. BTC/USD @ COINBASE** — Pagaidīt (vidējs, score 70)
-- Entry: `111535.425198` | SL: `110937.884406` | TP1: `111684.810396`
-- Upside (TP1): **0.13%**, Downside (SL): **0.54%**, R:R **0.25**
+**1. TRUMP/USD @ COINBASE** — Vērts pirkt (vidējs, score 85)
+- Entry: `7.846715` | SL: `7.579856` | TP1: `7.913429`
+- Upside (TP1): **0.85%**, Downside (SL): **3.40%**, R:R **0.25**
 
-**2. PENGU/USD @ COINBASE** — Nav ieteicams (vidējs, score 60)
-- Entry: `0.022847` | SL: `0.022562` | TP1: `0.022919`
-- Upside (TP1): **0.31%**, Downside (SL): **1.25%**, R:R **0.25**
+**2. LCX/USD @ COINBASE** — Pagaidīt (vidējs, score 70)
+- Entry: `0.109076` | SL: `0.107571` | TP1: `0.109453`
+- Upside (TP1): **0.35%**, Downside (SL): **1.38%**, R:R **0.25**
 
-**3. ETH/USD @ COINBASE** — Nav ieteicams (vidējs, score 60)
-- Entry: `4036.749984` | SL: `4004.550048` | TP1: `4044.799968`
-- Upside (TP1): **0.20%**, Downside (SL): **0.80%**, R:R **0.25**
+**3. WLFI/USD @ COINBASE** — Pagaidīt (vidējs, score 70)
+- Entry: `0.151628` | SL: `0.148357` | TP1: `0.152445`
+- Upside (TP1): **0.54%**, Downside (SL): **2.16%**, R:R **0.25**
 
 ## Salīdzinājuma tabula (visi)
 | Pāris | Verdikts | Risks | Score | Entry | SL | TP1 | Upside% | Downside% | R:R | RSI(1h) | MACD | 24h% | Cena |
 |---|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---|---:|---:|
-| PENGU/USD | Nav ieteicams | vidējs | 60 | 0.022847 | 0.022562 | 0.022919 | 0.31% | 1.25% | 0.25 | 57 | bearish | +0.00% | 0.022776 |
-| TRUMP/USD | Nav ieteicams | vidējs | 50 | 5.999042 | 5.962875 | 6.008083 | 0.15% | 0.60% | 0.25 | 52 | bearish | +0.00% | 5.99 |
-| BTC/USD | Pagaidīt | vidējs | 70 | 111535.425198 | 110937.884406 | 111684.810396 | 0.13% | 0.54% | 0.25 | 70 | bullish | +0.00% | 111386.04 |
-| ETH/USD | Nav ieteicams | vidējs | 60 | 4036.749984 | 4004.550048 | 4044.799968 | 0.20% | 0.80% | 0.25 | 56 | bearish | +0.00% | 4028.7 |
+| TRUMP/USD | Vērts pirkt | vidējs | 85 | 7.846715 | 7.579856 | 7.913429 | 0.85% | 3.40% | 0.25 | 65 | bullish | +0.00% | 7.78 |
+| LCX/USD | Pagaidīt | vidējs | 70 | 0.109076 | 0.107571 | 0.109453 | 0.35% | 1.38% | 0.25 | 56 | bullish | +0.00% | 0.1087 |
+| BERA/USD | Pagaidīt | vidējs | 60 | 1.823366 | 1.797902 | 1.829732 | 0.35% | 1.40% | 0.25 | 52 | bullish | +0.00% | 1.817 |
+| VVV/USD | Pagaidīt | vidējs | 60 | 1.602915 | 1.591255 | 1.60583 | 0.18% | 0.73% | 0.25 | 48 | bullish | +0.00% | 1.6 |
+| ZRO/USD | Pagaidīt | vidējs | 60 | 1.688525 | 1.670426 | 1.69305 | 0.27% | 1.07% | 0.25 | 52 | bullish | +0.00% | 1.684 |
+| ME/USD | Pagaidīt | vidējs | 60 | 0.478888 | 0.467335 | 0.481777 | 0.60% | 2.41% | 0.25 | 45 | bullish | +0.00% | 0.476 |
+| WLFI/USD | Pagaidīt | vidējs | 70 | 0.151628 | 0.148357 | 0.152445 | 0.54% | 2.16% | 0.25 | 69 | bullish | +0.00% | 0.15081 |
+| MELANIA COINBASE USD | Kļūda: Pāris nav atrodams biržā: MELANIA/USD | — | 0 | nan | nan | nan | — | — | — | nan | — | +nan% | nan |
+| CTC COINBASE USD | Kļūda: Pāris nav atrodams biržā: CTC/USD | — | 0 | nan | nan | nan | — | — | — | nan | — | +nan% | nan |
 
 ---
 
-## PENGU/USD @ COINBASE
-- Cena: **0.022776** | 24h: **+0.00%** | Vol: **—**
-- Konteksts: Trend **↓** | RSI(1h) **57** | MACD(1h) **bearish**
-
-### Ieteikums
-- **Verdikts:** Nav ieteicams
-- **Setup:** Speculative breakout
-- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `0.022847`
-- **SL:** `0.022562`
-- **TP1/TP2/TP3:** `0.022919` / `0.023061` / `0.023204`
-- **Risks:** vidējs | **Score:** 60/100
-
 ## TRUMP/USD @ COINBASE
-- Cena: **5.99** | 24h: **+0.00%** | Vol: **—**
-- Konteksts: Trend **↓** | RSI(1h) **52** | MACD(1h) **bearish**
+- Cena: **7.78** | 24h: **+0.00%** | Vol: **—**
+- Konteksts: Trend **↑** | RSI(1h) **65** | MACD(1h) **bullish**
 
 ### Ieteikums
-- **Verdikts:** Nav ieteicams
+- **Verdikts:** Vērts pirkt
 - **Setup:** Speculative breakout
-- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `5.999042`
-- **SL:** `5.962875`
-- **TP1/TP2/TP3:** `6.008083` / `6.026166` / `6.044249`
-- **Risks:** vidējs | **Score:** 50/100
+- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `7.846715`
+- **SL:** `7.579856`
+- **TP1/TP2/TP3:** `7.913429` / `8.046859` / `8.180288`
+- **Risks:** vidējs | **Score:** 85/100
 
-## BTC/USD @ COINBASE
-- Cena: **111386.04** | 24h: **+0.00%** | Vol: **—**
-- Konteksts: Trend **↓** | RSI(1h) **70** | MACD(1h) **bullish**
+## LCX/USD @ COINBASE
+- Cena: **0.1087** | 24h: **+0.00%** | Vol: **—**
+- Konteksts: Trend **↓** | RSI(1h) **56** | MACD(1h) **bullish**
 
 ### Ieteikums
 - **Verdikts:** Pagaidīt
 - **Setup:** Speculative breakout
-- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `111535.425198`
-- **SL:** `110937.884406`
-- **TP1/TP2/TP3:** `111684.810396` / `111983.580792` / `112282.351188`
+- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `0.109076`
+- **SL:** `0.107571`
+- **TP1/TP2/TP3:** `0.109453` / `0.110205` / `0.110958`
 - **Risks:** vidējs | **Score:** 70/100
 
-## ETH/USD @ COINBASE
-- Cena: **4028.7** | 24h: **+0.00%** | Vol: **—**
-- Konteksts: Trend **↓** | RSI(1h) **56** | MACD(1h) **bearish**
+## BERA/USD @ COINBASE
+- Cena: **1.817** | 24h: **+0.00%** | Vol: **—**
+- Konteksts: Trend **↓** | RSI(1h) **52** | MACD(1h) **bullish**
 
 ### Ieteikums
-- **Verdikts:** Nav ieteicams
+- **Verdikts:** Pagaidīt
 - **Setup:** Speculative breakout
-- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `4036.749984`
-- **SL:** `4004.550048`
-- **TP1/TP2/TP3:** `4044.799968` / `4060.899935` / `4076.999903`
+- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `1.823366`
+- **SL:** `1.797902`
+- **TP1/TP2/TP3:** `1.829732` / `1.842464` / `1.855196`
 - **Risks:** vidējs | **Score:** 60/100
+
+## VVV/USD @ COINBASE
+- Cena: **1.6** | 24h: **+0.00%** | Vol: **—**
+- Konteksts: Trend **↓** | RSI(1h) **48** | MACD(1h) **bullish**
+
+### Ieteikums
+- **Verdikts:** Pagaidīt
+- **Setup:** Speculative breakout
+- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `1.602915`
+- **SL:** `1.591255`
+- **TP1/TP2/TP3:** `1.60583` / `1.61166` / `1.61749`
+- **Risks:** vidējs | **Score:** 60/100
+
+## ZRO/USD @ COINBASE
+- Cena: **1.684** | 24h: **+0.00%** | Vol: **—**
+- Konteksts: Trend **↓** | RSI(1h) **52** | MACD(1h) **bullish**
+
+### Ieteikums
+- **Verdikts:** Pagaidīt
+- **Setup:** Speculative breakout
+- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `1.688525`
+- **SL:** `1.670426`
+- **TP1/TP2/TP3:** `1.69305` / `1.702099` / `1.711149`
+- **Risks:** vidējs | **Score:** 60/100
+
+## ME/USD @ COINBASE
+- Cena: **0.476** | 24h: **+0.00%** | Vol: **—**
+- Konteksts: Trend **↓** | RSI(1h) **45** | MACD(1h) **bullish**
+
+### Ieteikums
+- **Verdikts:** Pagaidīt
+- **Setup:** Speculative breakout
+- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `0.478888`
+- **SL:** `0.467335`
+- **TP1/TP2/TP3:** `0.481777` / `0.487553` / `0.49333`
+- **Risks:** vidējs | **Score:** 60/100
+
+## WLFI/USD @ COINBASE
+- Cena: **0.15081** | 24h: **+0.00%** | Vol: **—**
+- Konteksts: Trend **↓** | RSI(1h) **69** | MACD(1h) **bullish**
+
+### Ieteikums
+- **Verdikts:** Pagaidīt
+- **Setup:** Speculative breakout
+- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `0.151628`
+- **SL:** `0.148357`
+- **TP1/TP2/TP3:** `0.152445` / `0.15408` / `0.155716`
+- **Risks:** vidējs | **Score:** 70/100
+
+## MELANIA COINBASE USD @ —
+- Cena: **nan** | 24h: **+nan%** | Vol: **—**
+- Konteksts: Trend **—** | RSI(1h) **nan** | MACD(1h) **—**
+
+### Ieteikums
+- **Verdikts:** Kļūda: Pāris nav atrodams biržā: MELANIA/USD
+- **Setup:** —
+- **Entry:** —  — **Cena:** `nan`
+- **SL:** `nan`
+- **TP1/TP2/TP3:** `nan` / `nan` / `nan`
+- **Risks:** — | **Score:** 0/100
+
+## CTC COINBASE USD @ —
+- Cena: **nan** | 24h: **+nan%** | Vol: **—**
+- Konteksts: Trend **—** | RSI(1h) **nan** | MACD(1h) **—**
+
+### Ieteikums
+- **Verdikts:** Kļūda: Pāris nav atrodams biržā: CTC/USD
+- **Setup:** —
+- **Entry:** —  — **Cena:** `nan`
+- **SL:** `nan`
+- **TP1/TP2/TP3:** `nan` / `nan` / `nan`
+- **Risks:** — | **Score:** 0/100
 
 *Ne finanšu padoms.*
