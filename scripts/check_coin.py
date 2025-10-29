@@ -10,7 +10,14 @@ from ta.trend import EMAIndicator, MACD
 from ta.volatility import AverageTrueRange
 
 ANTI_FOMO_PCT = 15.0  # ja 24h >= 15% -> tikai pullback
-MAX_COINS = 10
+MAX_COINS = 15        # palielināts līdz 15, kā lūgts
+
+# Preset 15 monētu saraksts (droši pieejamas CEX, īpaši COINBASE)
+PRESET_15 = [
+    "BTC", "ETH", "SOL", "AVAX", "LINK",
+    "NEAR", "ADA", "MATIC", "ARB", "OP",
+    "XRP", "DOGE", "DOT", "LTC", "ATOM"
+]
 
 # ----------------------------
 # Palīgfunkcijas
@@ -18,17 +25,33 @@ MAX_COINS = 10
 
 def parse_coin_lines(path="COIN.txt"):
     """
-    Nolasa līdz 10 rindām. Katra rinda: <SYMBOL> [EXCHANGE] [QUOTE]
+    Nolasa līdz MAX_COINS rindām. Katra rinda: <SYMBOL> [EXCHANGE] [QUOTE]
     Noklusējumi: COINBASE/USD (jo Binance bieži bloķē GitHub Actions IP).
+
+    Īpašais režīms:
+    - Ja failā vienīgā (vai pirmā) rinda ir 'PRESET' vai 'DEFAULT15',
+      tiks izmantots PRESET_15 saraksts uz COINBASE/USD (max 15).
     """
     if not os.path.exists(path):
         raise FileNotFoundError("COIN.txt nav atrodams.")
+
     with open(path, "r", encoding="utf-8") as f:
         lines = [ln.strip() for ln in f if ln.strip()]
+
     if not lines:
         raise ValueError("COIN.txt ir tukšs. Piemērs rindai: BTC COINBASE USD")
+
+    # Preset 15
+    first = lines[0].upper()
+    if first in ("PRESET", "DEFAULT15"):
+        parsed = []
+        for sym in PRESET_15[:MAX_COINS]:
+            parsed.append((f"{sym} COINBASE USD", sym, "COINBASE", "USD"))
+        return parsed
+
     if len(lines) > MAX_COINS:
         lines = lines[:MAX_COINS]
+
     parsed = []
     for line in lines:
         parts = line.split()
@@ -43,6 +66,7 @@ def parse_coin_lines(path="COIN.txt"):
 def make_exchange(name: str):
     """
     Noklusējums: COINBASE (GitHub Actions IP bieži bloķē Binance).
+    Paplašināts biržu atbalsts fallbackam.
     """
     name = (name or "COINBASE").upper()
     if name == "BINANCE":
@@ -51,6 +75,10 @@ def make_exchange(name: str):
         ex = ccxt.okx()
     elif name == "BYBIT":
         ex = ccxt.bybit()
+    elif name == "KRAKEN":
+        ex = ccxt.kraken()
+    elif name == "KUCOIN":
+        ex = ccxt.kucoin()
     else:
         ex = ccxt.coinbase()
     ex.load_markets()
@@ -58,11 +86,13 @@ def make_exchange(name: str):
 
 def pick_pair(ex, base: str, quote: str):
     base, quote = base.upper(), quote.upper()
+    # Coinbase → USD, nevis USDT
     if ex.id.lower() == "coinbase" and quote == "USDT":
         quote = "USD"
     sym = f"{base}/{quote}"
     if sym in ex.symbols:
         return sym
+    # Fallback uz USD (daudzas biržas)
     if f"{base}/USD" in ex.symbols:
         return f"{base}/USD"
     raise ValueError(f"Pāris nav atrodams biržā: {base}/{quote}")
@@ -123,30 +153,83 @@ def compute_verdict(pct24h: float, trend_up: bool, macd1h: str, rsi1h: float, sc
     return "Nav ieteicams"
 
 # ----------------------------
+# Fallback ķēde biržām
+# ----------------------------
+
+# Fallback biržas un noklusētie quote katrai (secība ir svarīga)
+FALLBACK_EXCHANGES = [
+    ("COINBASE", "USD"),   # drošākais GitHub Actions vidē
+    ("KRAKEN",   "USD"),
+    ("KUCOIN",   "USDT"),
+    ("OKX",      "USDT"),
+    ("BYBIT",    "USDT"),
+    # ("BINANCE",  "USDT"),  # vari ieslēgt, bet GitHub IP bieži 451
+]
+
+# ----------------------------
 # Vienas monētas analīze
 # ----------------------------
 
-def analyze_one(base: str, exchange: str, quote: str):
-    try:
-        ex = make_exchange(exchange)
-    except Exception:
-        exchange = "COINBASE"; quote = "USD"; ex = make_exchange(exchange)
+def analyze_one(sym: str, ex_name: str, quote: str):
+    """
+    Izmanto lietotāja dotu biržu/quote, bet ja pāris/ohlcv nav pieejams,
+    automātiski mēģina nākamos avotus no FALLBACK_EXCHANGES.
+    """
+    # 1) Meklēšanas ķēde: vispirms lietotāja izvēle, tad fallbacki
+    chain = []
+    if ex_name:
+        first_quote = quote or ("USD" if ex_name.upper() == "COINBASE" else "USDT")
+        chain.append((ex_name.upper(), first_quote.upper()))
+    for e, q in FALLBACK_EXCHANGES:
+        if not chain or (chain[0][0] != e or chain[0][1] != q):
+            chain.append((e, q))
 
-    if exchange.upper() == "COINBASE" and quote.upper() == "USDT":
-        quote = "USD"
+    pair = None
+    chosen_ex = None
+    chosen_ex_name = None
+    chosen_quote = None
+    last_error = None
 
-    try:
-        pair = pick_pair(ex, base, quote)
-    except Exception as e:
-        if exchange.upper() == "BINANCE":
-            exchange = "COINBASE"; quote = "USD"; ex = make_exchange(exchange)
-            pair = pick_pair(ex, base, quote)
-        else:
-            raise e
+    # 2) Ej cauri biržām, līdz atrodi derīgu pāri + OHLCV
+    for ex_id, q in chain:
+        try:
+            ex = make_exchange(ex_id)
+            # Coinbase → USD
+            if ex.id.lower() == "coinbase" and q.upper() == "USDT":
+                q = "USD"
+            try:
+                candidate = pick_pair(ex, sym, q)
+            except Exception as e:
+                last_error = e
+                continue
 
-    # Dati
+            # Ātra OHLCV validācija (piem., 1h sveces >= 50)
+            _df_test = fetch_df(ex, candidate, "1h", limit=100)
+            if len(_df_test) < 50:
+                last_error = ValueError(f"Par maz OHLCV 1h {ex_id}")
+                continue
+
+            # veiksmīgi
+            pair = candidate
+            chosen_ex = ex
+            chosen_ex_name = ex_id
+            chosen_quote = q
+            break
+
+        except Exception as e:
+            last_error = e
+            continue
+
+    if pair is None or chosen_ex is None:
+        raise RuntimeError(f"Neizdevās atrast datu avotu {sym} (pēdējā kļūda: {last_error})")
+
+    ex = chosen_ex
+    exchange = chosen_ex_name
+    quote = chosen_quote
+
+    # -------- Dati & indikatori --------
     df1h = add_ind(fetch_df(ex, pair, "1h"))
-    df4h = add_ind(fetch_df(ex, pair, "4h"))   # Coinbase -> 6h
+    df4h = add_ind(fetch_df(ex, pair, "4h"))   # Coinbase -> 6h automātiski
     df1d = add_ind(fetch_df(ex, pair, "1d"))
     df15 = add_ind(fetch_df(ex, pair, "15m"))
 
