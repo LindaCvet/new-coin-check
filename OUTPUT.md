@@ -6,72 +6,70 @@ MINA
 DASH
 BAT
 MOG
-LPT
-ICP
-BLUR
+BTC
+ETH
 ```
-**Laiks (UTC):** 2025-11-01 17:01 UTC
+**Laiks (UTC):** 2025-11-01 17:14 UTC
 
 ## TOP 3 darījumi
-**1. BAT/USD @ COINBASE** — Vērts pirkt uz atvilkuma (vidējs, score 75)
-- Entry: `0.194583` | SL: `0.187931` | TP1: `0.196246`
-- Upside (TP1): **0.85%**, Downside (SL): **3.42%**, R:R **0.25**
+**1. DASH/USD @ COINBASE** — Vērts pirkt (augsts, score 85)
+- Entry: `69.946923` | SL: `65.079231` | TP1: `71.163846`
+- Upside (TP1): **1.74%**, Downside (SL): **6.96%**, R:R **0.25**
 
-**2. MOG/USD @ COINBASE** — Pagaidīt (augsts, score 60)
-- Entry: `0.0` | SL: `0.0` | TP1: `1e-06`
-- Upside (TP1): **—**, Downside (SL): **—**, R:R **—**
+**2. BAT/USD @ COINBASE** — Vērts pirkt uz atvilkuma (vidējs, score 75)
+- Entry: `0.194048` | SL: `0.187335` | TP1: `0.195727`
+- Upside (TP1): **0.87%**, Downside (SL): **3.46%**, R:R **0.25**
 
-**3. BLUR/USD @ COINBASE** — Pagaidīt (vidējs, score 70)
-- Entry: `0.049433` | SL: `0.048501` | TP1: `0.049666`
-- Upside (TP1): **0.47%**, Downside (SL): **1.89%**, R:R **0.25**
+**3. MINA/USD @ COINBASE** — Vērts pirkt uz atvilkuma (augsts, score 75)
+- Entry: `0.229851` | SL: `0.190447` | TP1: `0.239702`
+- Upside (TP1): **4.29%**, Downside (SL): **17.14%**, R:R **0.25**
 
 ## Salīdzinājuma tabula (visi)
 | Pāris | Verdikts | Risks | Score | Entry | SL | TP1 | Upside% | Downside% | R:R | RSI(1h) | MACD | 24h% | Cena |
 |---|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---|---:|---:|
-| MINA/USD | Vērts pirkt uz atvilkuma | augsts | 75 | 0.19928 | 0.166161 | 0.207559 | 4.15% | 16.62% | 0.25 | 98 | bullish | +0.00% | 0.191 |
-| DASH/USD | Pagaidīt | augsts | 75 | 70.31478 | 65.575659 | 71.49956 | 1.68% | 6.74% | 0.25 | 70 | bullish | +0.00% | 69.13 |
-| BAT/USD | Vērts pirkt uz atvilkuma | vidējs | 75 | 0.194583 | 0.187931 | 0.196246 | 0.85% | 3.42% | 0.25 | 80 | bullish | +0.00% | 0.19292 |
+| MINA/USD | Vērts pirkt uz atvilkuma | augsts | 75 | 0.229851 | 0.190447 | 0.239702 | 4.29% | 17.14% | 0.25 | 98 | bullish | +0.00% | 0.22 |
+| DASH/USD | Vērts pirkt | augsts | 85 | 69.946923 | 65.079231 | 71.163846 | 1.74% | 6.96% | 0.25 | 69 | bullish | +0.00% | 68.73 |
+| BAT/USD | Vērts pirkt uz atvilkuma | vidējs | 75 | 0.194048 | 0.187335 | 0.195727 | 0.87% | 3.46% | 0.25 | 78 | bullish | +0.00% | 0.19237 |
 | MOG/USD | Pagaidīt | augsts | 60 | 0.0 | 0.0 | 1e-06 | — | — | — | 80 | bullish | +0.00% | 4.9e-07 |
-| LPT/USD | Pagaidīt | augsts | 70 | 5.480993 | 5.197021 | 5.551986 | 1.30% | 5.18% | 0.25 | 62 | bullish | +0.00% | 5.41 |
-| ICP/USD | Pagaidīt | vidējs | 70 | 3.423176 | 3.302471 | 3.453353 | 0.88% | 3.53% | 0.25 | 65 | bullish | +0.00% | 3.393 |
-| BLUR/USD | Pagaidīt | vidējs | 70 | 0.049433 | 0.048501 | 0.049666 | 0.47% | 1.89% | 0.25 | 70 | bullish | +0.00% | 0.0492 |
+| BTC/USD | Pagaidīt | vidējs | 70 | 110406.999483 | 110030.201551 | 110501.198966 | 0.09% | 0.34% | 0.25 | 57 | bullish | +0.00% | 110312.8 |
+| ETH/USD | Pagaidīt | vidējs | 70 | 3885.593148 | 3862.220556 | 3891.436296 | 0.15% | 0.60% | 0.25 | 55 | bullish | +0.00% | 3879.75 |
 
 ---
 
 ## MINA/USD @ COINBASE
-- Cena: **0.191** | 24h: **+0.00%** | Vol: **—**
+- Cena: **0.22** | 24h: **+0.00%** | Vol: **—**
 - Konteksts: Trend **↑** | RSI(1h) **98** | MACD(1h) **bullish**
 
 ### Ieteikums
 - **Verdikts:** Vērts pirkt uz atvilkuma
 - **Setup:** Speculative breakout
-- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `0.19928`
-- **SL:** `0.166161`
-- **TP1/TP2/TP3:** `0.207559` / `0.224119` / `0.240678`
+- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `0.229851`
+- **SL:** `0.190447`
+- **TP1/TP2/TP3:** `0.239702` / `0.259404` / `0.279107`
 - **Risks:** augsts | **Score:** 75/100
 
 ## DASH/USD @ COINBASE
-- Cena: **69.13** | 24h: **+0.00%** | Vol: **—**
-- Konteksts: Trend **↑** | RSI(1h) **70** | MACD(1h) **bullish**
+- Cena: **68.73** | 24h: **+0.00%** | Vol: **—**
+- Konteksts: Trend **↑** | RSI(1h) **69** | MACD(1h) **bullish**
 
 ### Ieteikums
-- **Verdikts:** Pagaidīt
+- **Verdikts:** Vērts pirkt
 - **Setup:** Speculative breakout
-- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `70.31478`
-- **SL:** `65.575659`
-- **TP1/TP2/TP3:** `71.49956` / `73.869121` / `76.238681`
-- **Risks:** augsts | **Score:** 75/100
+- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `69.946923`
+- **SL:** `65.079231`
+- **TP1/TP2/TP3:** `71.163846` / `73.597692` / `76.031538`
+- **Risks:** augsts | **Score:** 85/100
 
 ## BAT/USD @ COINBASE
-- Cena: **0.19292** | 24h: **+0.00%** | Vol: **—**
-- Konteksts: Trend **↑** | RSI(1h) **80** | MACD(1h) **bullish**
+- Cena: **0.19237** | 24h: **+0.00%** | Vol: **—**
+- Konteksts: Trend **↑** | RSI(1h) **78** | MACD(1h) **bullish**
 
 ### Ieteikums
 - **Verdikts:** Vērts pirkt uz atvilkuma
 - **Setup:** Speculative breakout
-- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `0.194583`
-- **SL:** `0.187931`
-- **TP1/TP2/TP3:** `0.196246` / `0.199572` / `0.202898`
+- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `0.194048`
+- **SL:** `0.187335`
+- **TP1/TP2/TP3:** `0.195727` / `0.199083` / `0.20244`
 - **Risks:** vidējs | **Score:** 75/100
 
 ## MOG/USD @ COINBASE
@@ -86,40 +84,28 @@ BLUR
 - **TP1/TP2/TP3:** `1e-06` / `1e-06` / `1e-06`
 - **Risks:** augsts | **Score:** 60/100
 
-## LPT/USD @ COINBASE
-- Cena: **5.41** | 24h: **+0.00%** | Vol: **—**
-- Konteksts: Trend **↓** | RSI(1h) **62** | MACD(1h) **bullish**
+## BTC/USD @ COINBASE
+- Cena: **110312.8** | 24h: **+0.00%** | Vol: **—**
+- Konteksts: Trend **↓** | RSI(1h) **57** | MACD(1h) **bullish**
 
 ### Ieteikums
 - **Verdikts:** Pagaidīt
 - **Setup:** Speculative breakout
-- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `5.480993`
-- **SL:** `5.197021`
-- **TP1/TP2/TP3:** `5.551986` / `5.693972` / `5.835959`
-- **Risks:** augsts | **Score:** 70/100
-
-## ICP/USD @ COINBASE
-- Cena: **3.393** | 24h: **+0.00%** | Vol: **—**
-- Konteksts: Trend **↓** | RSI(1h) **65** | MACD(1h) **bullish**
-
-### Ieteikums
-- **Verdikts:** Pagaidīt
-- **Setup:** Speculative breakout
-- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `3.423176`
-- **SL:** `3.302471`
-- **TP1/TP2/TP3:** `3.453353` / `3.513706` / `3.574058`
+- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `110406.999483`
+- **SL:** `110030.201551`
+- **TP1/TP2/TP3:** `110501.198966` / `110689.597932` / `110877.996898`
 - **Risks:** vidējs | **Score:** 70/100
 
-## BLUR/USD @ COINBASE
-- Cena: **0.0492** | 24h: **+0.00%** | Vol: **—**
-- Konteksts: Trend **↓** | RSI(1h) **70** | MACD(1h) **bullish**
+## ETH/USD @ COINBASE
+- Cena: **3879.75** | 24h: **+0.00%** | Vol: **—**
+- Konteksts: Trend **↓** | RSI(1h) **55** | MACD(1h) **bullish**
 
 ### Ieteikums
 - **Verdikts:** Pagaidīt
 - **Setup:** Speculative breakout
-- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `0.049433`
-- **SL:** `0.048501`
-- **TP1/TP2/TP3:** `0.049666` / `0.050132` / `0.050599`
+- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `3885.593148`
+- **SL:** `3862.220556`
+- **TP1/TP2/TP3:** `3891.436296` / `3903.122592` / `3914.808889`
 - **Risks:** vidējs | **Score:** 70/100
 
 *Ne finanšu padoms.*
