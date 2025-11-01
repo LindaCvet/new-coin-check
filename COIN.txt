@@ -2,3 +2,4 @@ MINA
 DASH
 BAT
 MOG
+ICP
