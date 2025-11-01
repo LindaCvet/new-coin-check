@@ -1,4 +1,3 @@
-DOGE
 MINA
 DASH
 BAT
