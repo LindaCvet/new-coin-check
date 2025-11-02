@@ -6,6 +6,8 @@ CELO
 IOTX
 PRO
 STORJ
+ICP
+PUMP
 
 
 
