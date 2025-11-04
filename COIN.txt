@@ -4,3 +4,4 @@ ICP
 HONEY
 BTC
 ETH
+XCN
