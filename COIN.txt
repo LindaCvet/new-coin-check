@@ -1,4 +1,6 @@
 MINA
 DASH
 ICP
-
+HONEY
+BTC
+ETH
