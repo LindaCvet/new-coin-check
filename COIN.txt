@@ -3,5 +3,5 @@ FARM
 ALCX
 ASM
 FORT
-BAT
 TRUMP
+doge
