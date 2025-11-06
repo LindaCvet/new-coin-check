@@ -2,4 +2,3 @@ MINA
 FARM
 ALCX
 TRUMP
-btc
