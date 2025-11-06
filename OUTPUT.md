@@ -6,92 +6,78 @@ MINA
 FARM
 ALCX
 TRUMP
-BTC
 ```
-**Laiks (UTC):** 2025-11-06 07:36 UTC
+**Laiks (UTC):** 2025-11-06 08:10 UTC
 
 ## TOP 3 darījumi
-**1. TRUMP/USD @ COINBASE** — Vērts pirkt (vidējs, score 85)
-- Entry: `8.103696` | SL: `7.928912` | TP1: `8.147392`
-- Upside (TP1): **0.54%**, Downside (SL): **2.16%**, R:R **0.25**
+**1. MINA/USD @ COINBASE** — Vērts pirkt (augsts, score 85)
+- Entry: `0.17612` | SL: `0.163639` | TP1: `0.17924`
+- Upside (TP1): **1.77%**, Downside (SL): **7.09%**, R:R **0.25**
 
-**2. MINA/USD @ COINBASE** — Vērts pirkt (augsts, score 85)
-- Entry: `0.178296` | SL: `0.165111` | TP1: `0.181592`
-- Upside (TP1): **1.85%**, Downside (SL): **7.39%**, R:R **0.25**
+**2. ALCX/USD @ COINBASE** — Vērts pirkt (augsts, score 85)
+- Entry: `16.282087` | SL: `13.433739` | TP1: `16.994174`
+- Upside (TP1): **4.37%**, Downside (SL): **17.49%**, R:R **0.25**
 
 **3. FARM/USD @ COINBASE** — Vērts pirkt (augsts, score 85)
-- Entry: `28.21204` | SL: `24.323879` | TP1: `29.184081`
-- Upside (TP1): **3.45%**, Downside (SL): **13.78%**, R:R **0.25**
+- Entry: `30.273622` | SL: `26.419135` | TP1: `31.237243`
+- Upside (TP1): **3.18%**, Downside (SL): **12.73%**, R:R **0.25**
 
 ## Salīdzinājuma tabula (visi)
 | Pāris | Verdikts | Risks | Score | Entry | SL | TP1 | Upside% | Downside% | R:R | RSI(1h) | MACD | 24h% | Cena |
 |---|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---|---:|---:|
-| MINA/USD | Vērts pirkt | augsts | 85 | 0.178296 | 0.165111 | 0.181592 | 1.85% | 7.39% | 0.25 | 69 | bullish | +0.00% | 0.175 |
-| FARM/USD | Vērts pirkt | augsts | 85 | 28.21204 | 24.323879 | 29.184081 | 3.45% | 13.78% | 0.25 | 64 | bullish | +0.00% | 27.24 |
-| ALCX/USD | Vērts pirkt | augsts | 85 | 16.877628 | 14.007117 | 17.595255 | 4.25% | 17.01% | 0.25 | 69 | bullish | +0.00% | 16.16 |
-| TRUMP/USD | Vērts pirkt | vidējs | 85 | 8.103696 | 7.928912 | 8.147392 | 0.54% | 2.16% | 0.25 | 66 | bullish | +0.00% | 8.06 |
-| BTC/USD | Nav ieteicams | vidējs | 50 | 103455.523198 | 102775.190406 | 103625.606396 | 0.16% | 0.66% | 0.25 | 50 | bearish | +0.00% | 103285.44 |
+| MINA/USD | Vērts pirkt | augsts | 85 | 0.17612 | 0.163639 | 0.17924 | 1.77% | 7.09% | 0.25 | 67 | bullish | +0.00% | 0.173 |
+| FARM/USD | Vērts pirkt | augsts | 85 | 30.273622 | 26.419135 | 31.237243 | 3.18% | 12.73% | 0.25 | 68 | bullish | +0.00% | 29.31 |
+| ALCX/USD | Vērts pirkt | augsts | 85 | 16.282087 | 13.433739 | 16.994174 | 4.37% | 17.49% | 0.25 | 65 | bullish | +0.00% | 15.57 |
+| TRUMP/USD | Pagaidīt | vidējs | 75 | 8.15176 | 7.98472 | 8.19352 | 0.51% | 2.05% | 0.25 | 69 | bearish | +0.00% | 8.11 |
 
 ---
 
 ## MINA/USD @ COINBASE
-- Cena: **0.175** | 24h: **+0.00%** | Vol: **—**
-- Konteksts: Trend **↑** | RSI(1h) **69** | MACD(1h) **bullish**
+- Cena: **0.173** | 24h: **+0.00%** | Vol: **—**
+- Konteksts: Trend **↑** | RSI(1h) **67** | MACD(1h) **bullish**
 
 ### Ieteikums
 - **Verdikts:** Vērts pirkt
 - **Setup:** Speculative breakout
-- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `0.178296`
-- **SL:** `0.165111`
-- **TP1/TP2/TP3:** `0.181592` / `0.188185` / `0.194777`
+- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `0.17612`
+- **SL:** `0.163639`
+- **TP1/TP2/TP3:** `0.17924` / `0.185481` / `0.191721`
 - **Risks:** augsts | **Score:** 85/100
 
 ## FARM/USD @ COINBASE
-- Cena: **27.24** | 24h: **+0.00%** | Vol: **—**
-- Konteksts: Trend **↑** | RSI(1h) **64** | MACD(1h) **bullish**
+- Cena: **29.31** | 24h: **+0.00%** | Vol: **—**
+- Konteksts: Trend **↑** | RSI(1h) **68** | MACD(1h) **bullish**
 
 ### Ieteikums
 - **Verdikts:** Vērts pirkt
 - **Setup:** Speculative breakout
-- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `28.21204`
-- **SL:** `24.323879`
-- **TP1/TP2/TP3:** `29.184081` / `31.128161` / `33.072242`
+- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `30.273622`
+- **SL:** `26.419135`
+- **TP1/TP2/TP3:** `31.237243` / `33.164486` / `35.091729`
 - **Risks:** augsts | **Score:** 85/100
 
 ## ALCX/USD @ COINBASE
-- Cena: **16.16** | 24h: **+0.00%** | Vol: **—**
-- Konteksts: Trend **↑** | RSI(1h) **69** | MACD(1h) **bullish**
+- Cena: **15.57** | 24h: **+0.00%** | Vol: **—**
+- Konteksts: Trend **↑** | RSI(1h) **65** | MACD(1h) **bullish**
 
 ### Ieteikums
 - **Verdikts:** Vērts pirkt
 - **Setup:** Speculative breakout
-- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `16.877628`
-- **SL:** `14.007117`
-- **TP1/TP2/TP3:** `17.595255` / `19.030511` / `20.465766`
+- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `16.282087`
+- **SL:** `13.433739`
+- **TP1/TP2/TP3:** `16.994174` / `18.418349` / `19.842523`
 - **Risks:** augsts | **Score:** 85/100
 
 ## TRUMP/USD @ COINBASE
-- Cena: **8.06** | 24h: **+0.00%** | Vol: **—**
-- Konteksts: Trend **↑** | RSI(1h) **66** | MACD(1h) **bullish**
+- Cena: **8.11** | 24h: **+0.00%** | Vol: **—**
+- Konteksts: Trend **↑** | RSI(1h) **69** | MACD(1h) **bearish**
 
 ### Ieteikums
-- **Verdikts:** Vērts pirkt
+- **Verdikts:** Pagaidīt
 - **Setup:** Speculative breakout
-- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `8.103696`
-- **SL:** `7.928912`
-- **TP1/TP2/TP3:** `8.147392` / `8.234784` / `8.322176`
-- **Risks:** vidējs | **Score:** 85/100
-
-## BTC/USD @ COINBASE
-- Cena: **103285.44** | 24h: **+0.00%** | Vol: **—**
-- Konteksts: Trend **↓** | RSI(1h) **50** | MACD(1h) **bearish**
-
-### Ieteikums
-- **Verdikts:** Nav ieteicams
-- **Setup:** Speculative breakout
-- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `103455.523198`
-- **SL:** `102775.190406`
-- **TP1/TP2/TP3:** `103625.606396` / `103965.772791` / `104305.939187`
-- **Risks:** vidējs | **Score:** 50/100
+- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `8.15176`
+- **SL:** `7.98472`
+- **TP1/TP2/TP3:** `8.19352` / `8.27704` / `8.360561`
+- **Risks:** vidējs | **Score:** 75/100
 
 *Ne finanšu padoms.*
