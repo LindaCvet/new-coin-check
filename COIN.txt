@@ -4,4 +4,3 @@ ALCX
 ASM
 FORT
 TRUMP
-doge
