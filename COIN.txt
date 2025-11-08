@@ -6,4 +6,3 @@ NEAR
 KSM
 SEI
 GST
-BTC
