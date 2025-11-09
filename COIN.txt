@@ -6,5 +6,4 @@ KSM
 KAVA
 LOKA
 API3
-LMWR
 
