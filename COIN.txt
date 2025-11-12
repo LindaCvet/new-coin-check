@@ -5,3 +5,4 @@ DASH
 KSM 
 BAT
 TRUMP
+BTC
