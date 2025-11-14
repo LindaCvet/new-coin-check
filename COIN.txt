@@ -6,4 +6,4 @@ KSM
 BAT
 TRUMP
 ICP
-
+BTC
