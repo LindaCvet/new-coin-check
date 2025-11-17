@@ -5,3 +5,4 @@ KSM
 BAT
 ICP
 UNI
+MINA
