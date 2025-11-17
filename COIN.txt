@@ -7,4 +7,3 @@ ICP
 UNI
 STRK
 MINA
-BTC
