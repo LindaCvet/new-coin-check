@@ -7,5 +7,4 @@ BAT
 ICP
 UNI
 STRK
-ZEN
-BTC
+
