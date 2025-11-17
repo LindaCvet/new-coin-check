@@ -6,3 +6,4 @@ BAT
 ICP
 UNI
 STRK
+MINA
