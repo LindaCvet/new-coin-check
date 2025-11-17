@@ -7,9 +7,4 @@ BAT
 ICP
 UNI
 STRK
-muse
-zen
-chillguy
-nmr
-wen
-prompt
+ZEN
