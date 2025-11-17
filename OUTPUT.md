@@ -8,216 +8,230 @@ FIL
 DASH
 KSM 
 BAT
-CVX
 ICP
-GLM
-SPA
 NMR
-SKL
+BLUR
+LPT
+SPA
+WEN
+STX
 FWOG
-RARI
+IMX
 ```
-**Laiks (UTC):** 2025-11-17 06:22 UTC
+**Laiks (UTC):** 2025-11-17 07:26 UTC
 
 ## TOP 3 darījumi
 **1. FWOG/USD @ KRAKEN** — Pagaidīt (vidējs, score 70)
-- Entry: `0.015049` | SL: `0.014972` | TP1: `0.015069`
-- Upside (TP1): **0.13%**, Downside (SL): **0.51%**, R:R **0.26**
+- Entry: `0.01522` | SL: `0.015139` | TP1: `0.015241`
+- Upside (TP1): **0.13%**, Downside (SL): **0.53%**, R:R **0.25**
 
-**2. RARI/USD @ COINBASE** — Pagaidīt (vidējs, score 70)
-- Entry: `0.498342` | SL: `0.493773` | TP1: `0.499485`
-- Upside (TP1): **0.23%**, Downside (SL): **0.92%**, R:R **0.25**
+**2. IMX/USD @ COINBASE** — Pagaidīt (vidējs, score 70)
+- Entry: `0.387345` | SL: `0.381565` | TP1: `0.38879`
+- Upside (TP1): **0.37%**, Downside (SL): **1.49%**, R:R **0.25**
 
-**3. CVX/USD @ COINBASE** — Pagaidīt (vidējs, score 70)
-- Entry: `1.912517` | SL: `1.890449` | TP1: `1.918034`
-- Upside (TP1): **0.29%**, Downside (SL): **1.15%**, R:R **0.25**
+**3. BAT/USD @ COINBASE** — Pagaidīt (vidējs, score 70)
+- Entry: `0.180596` | SL: `0.177572` | TP1: `0.181352`
+- Upside (TP1): **0.42%**, Downside (SL): **1.67%**, R:R **0.25**
 
 ## Salīdzinājuma tabula (visi)
 | Pāris | Verdikts | Risks | Score | Entry | SL | TP1 | Upside% | Downside% | R:R | RSI(1h) | MACD | 24h% | Cena |
 |---|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---|---:|---:|
-| MINA/USD | Pagaidīt | vidējs | 60 | 0.129358 | 0.127926 | 0.129716 | 0.28% | 1.11% | 0.25 | 49 | bullish | +0.00% | 0.129 |
-| ALCX/USD | Nav ieteicams | vidējs | 50 | 12.463885 | 12.088345 | 12.55777 | 0.75% | 3.01% | 0.25 | 44 | bearish | +0.00% | 12.37 |
-| FIL/USD | Pagaidīt | vidējs | 60 | 1.981587 | 1.95124 | 1.989173 | 0.38% | 1.53% | 0.25 | 48 | bullish | +0.00% | 1.974 |
-| DASH/USD | Nav ieteicams | augsts | 50 | 84.121315 | 80.476054 | 85.032631 | 1.08% | 4.33% | 0.25 | 42 | bearish | +0.00% | 83.21 |
-| KSM/USD | Pagaidīt | vidējs | 60 | 10.005613 | 9.90316 | 10.031227 | 0.26% | 1.02% | 0.25 | 49 | bullish | +0.00% | 9.98 |
-| BAT/USD | Pagaidīt | vidējs | 70 | 0.179811 | 0.176808 | 0.180561 | 0.42% | 1.67% | 0.25 | 56 | bullish | +0.00% | 0.17906 |
-| CVX/USD | Pagaidīt | vidējs | 70 | 1.912517 | 1.890449 | 1.918034 | 0.29% | 1.15% | 0.25 | 60 | bullish | +0.00% | 1.907 |
-| ICP/USD | Pagaidīt | vidējs | 60 | 5.028026 | 4.899923 | 5.060052 | 0.64% | 2.55% | 0.25 | 46 | bullish | +0.00% | 4.996 |
-| GLM/USD | Pagaidīt | vidējs | 60 | 0.218363 | 0.215311 | 0.219126 | 0.35% | 1.40% | 0.25 | 41 | bullish | +0.00% | 0.2176 |
-| SPA/USD | Pagaidīt | augsts | 60 | 0.006987 | 0.006635 | 0.007075 | 1.26% | 5.04% | 0.25 | 72 | bullish | +0.00% | 0.006899 |
-| NMR/USD | Pagaidīt | vidējs | 70 | 10.902513 | 10.612461 | 10.975026 | 0.67% | 2.66% | 0.25 | 68 | bullish | +0.00% | 10.83 |
-| SKL/USD | Pagaidīt | vidējs | 70 | 0.015774 | 0.015478 | 0.015848 | 0.47% | 1.87% | 0.25 | 57 | bullish | +0.00% | 0.0157 |
-| FWOG/USD | Pagaidīt | vidējs | 70 | 0.015049 | 0.014972 | 0.015069 | 0.13% | 0.51% | 0.26 | 61 | bullish | +3.23% | 0.01503 |
-| RARI/USD | Pagaidīt | vidējs | 70 | 0.498342 | 0.493773 | 0.499485 | 0.23% | 0.92% | 0.25 | 57 | bullish | +0.00% | 0.4972 |
+| MINA/USD | Pagaidīt | vidējs | 70 | 0.132428 | 0.130717 | 0.132855 | 0.32% | 1.29% | 0.25 | 59 | bullish | +0.00% | 0.132 |
+| ALCX/USD | Nav ieteicams | vidējs | 50 | 12.414634 | 12.076099 | 12.499268 | 0.68% | 2.73% | 0.25 | 43 | bearish | +0.00% | 12.33 |
+| FIL/USD | Pagaidīt | vidējs | 60 | 1.998536 | 1.968393 | 2.006071 | 0.38% | 1.51% | 0.25 | 52 | bullish | +0.00% | 1.991 |
+| DASH/USD | Nav ieteicams | augsts | 50 | 82.724803 | 79.145591 | 83.619606 | 1.08% | 4.33% | 0.25 | 40 | bearish | +0.00% | 81.83 |
+| KSM/USD | Pagaidīt | vidējs | 60 | 10.095544 | 9.993368 | 10.121088 | 0.25% | 1.01% | 0.25 | 54 | bullish | +0.00% | 10.07 |
+| BAT/USD | Pagaidīt | vidējs | 70 | 0.180596 | 0.177572 | 0.181352 | 0.42% | 1.67% | 0.25 | 57 | bullish | +0.00% | 0.17984 |
+| ICP/USD | Pagaidīt | vidējs | 60 | 5.062469 | 4.936592 | 5.093939 | 0.62% | 2.49% | 0.25 | 48 | bullish | +0.00% | 5.031 |
+| NMR/USD | Pagaidīt | augsts | 60 | 11.512165 | 11.023504 | 11.634331 | 1.06% | 4.24% | 0.25 | 82 | bullish | +0.00% | 11.39 |
+| BLUR/USD | Pagaidīt | vidējs | 60 | 0.042036 | 0.041492 | 0.042172 | 0.32% | 1.29% | 0.25 | 52 | bullish | +0.00% | 0.0419 |
+| LPT/USD | Pagaidīt | vidējs | 60 | 4.788123 | 4.67563 | 4.816247 | 0.59% | 2.35% | 0.25 | 72 | bullish | +0.00% | 4.76 |
+| SPA/USD | Pagaidīt | augsts | 70 | 0.006777 | 0.006421 | 0.006866 | 1.32% | 5.26% | 0.25 | 69 | bullish | +0.00% | 0.006688 |
+| WEN/USD | Pagaidīt | vidējs | 70 | 1.6e-05 | 1.5e-05 | 1.6e-05 | -1.81% | 3.53% | -0.51 | 59 | bullish | +3.17% | 1.56e-05 |
+| STX/USD | Pagaidīt | vidējs | 60 | 0.354413 | 0.349961 | 0.355526 | 0.31% | 1.26% | 0.25 | 51 | bullish | +0.00% | 0.3533 |
+| FWOG/USD | Pagaidīt | vidējs | 70 | 0.01522 | 0.015139 | 0.015241 | 0.13% | 0.53% | 0.25 | 65 | bullish | +4.40% | 0.0152 |
+| IMX/USD | Pagaidīt | vidējs | 70 | 0.387345 | 0.381565 | 0.38879 | 0.37% | 1.49% | 0.25 | 64 | bullish | +0.00% | 0.3859 |
 
 ---
 
 ## MINA/USD @ COINBASE
-- Cena: **0.129** | 24h: **+0.00%** | Vol: **—**
-- Konteksts: Trend **↓** | RSI(1h) **49** | MACD(1h) **bullish**
+- Cena: **0.132** | 24h: **+0.00%** | Vol: **—**
+- Konteksts: Trend **↓** | RSI(1h) **59** | MACD(1h) **bullish**
 
 ### Ieteikums
 - **Verdikts:** Pagaidīt
 - **Setup:** Speculative breakout
-- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `0.129358`
-- **SL:** `0.127926`
-- **TP1/TP2/TP3:** `0.129716` / `0.130432` / `0.131148`
-- **Risks:** vidējs | **Score:** 60/100
+- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `0.132428`
+- **SL:** `0.130717`
+- **TP1/TP2/TP3:** `0.132855` / `0.13371` / `0.134566`
+- **Risks:** vidējs | **Score:** 70/100
 
 ## ALCX/USD @ COINBASE
-- Cena: **12.37** | 24h: **+0.00%** | Vol: **—**
-- Konteksts: Trend **↓** | RSI(1h) **44** | MACD(1h) **bearish**
+- Cena: **12.33** | 24h: **+0.00%** | Vol: **—**
+- Konteksts: Trend **↓** | RSI(1h) **43** | MACD(1h) **bearish**
 
 ### Ieteikums
 - **Verdikts:** Nav ieteicams
 - **Setup:** Speculative breakout
-- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `12.463885`
-- **SL:** `12.088345`
-- **TP1/TP2/TP3:** `12.55777` / `12.74554` / `12.93331`
+- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `12.414634`
+- **SL:** `12.076099`
+- **TP1/TP2/TP3:** `12.499268` / `12.668535` / `12.837803`
 - **Risks:** vidējs | **Score:** 50/100
 
 ## FIL/USD @ COINBASE
-- Cena: **1.974** | 24h: **+0.00%** | Vol: **—**
+- Cena: **1.991** | 24h: **+0.00%** | Vol: **—**
+- Konteksts: Trend **↓** | RSI(1h) **52** | MACD(1h) **bullish**
+
+### Ieteikums
+- **Verdikts:** Pagaidīt
+- **Setup:** Speculative breakout
+- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `1.998536`
+- **SL:** `1.968393`
+- **TP1/TP2/TP3:** `2.006071` / `2.021142` / `2.036213`
+- **Risks:** vidējs | **Score:** 60/100
+
+## DASH/USD @ COINBASE
+- Cena: **81.83** | 24h: **+0.00%** | Vol: **—**
+- Konteksts: Trend **↓** | RSI(1h) **40** | MACD(1h) **bearish**
+
+### Ieteikums
+- **Verdikts:** Nav ieteicams
+- **Setup:** Speculative breakout
+- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `82.724803`
+- **SL:** `79.145591`
+- **TP1/TP2/TP3:** `83.619606` / `85.409212` / `87.198817`
+- **Risks:** augsts | **Score:** 50/100
+
+## KSM/USD @ COINBASE
+- Cena: **10.07** | 24h: **+0.00%** | Vol: **—**
+- Konteksts: Trend **↓** | RSI(1h) **54** | MACD(1h) **bullish**
+
+### Ieteikums
+- **Verdikts:** Pagaidīt
+- **Setup:** Speculative breakout
+- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `10.095544`
+- **SL:** `9.993368`
+- **TP1/TP2/TP3:** `10.121088` / `10.172176` / `10.223265`
+- **Risks:** vidējs | **Score:** 60/100
+
+## BAT/USD @ COINBASE
+- Cena: **0.17984** | 24h: **+0.00%** | Vol: **—**
+- Konteksts: Trend **↓** | RSI(1h) **57** | MACD(1h) **bullish**
+
+### Ieteikums
+- **Verdikts:** Pagaidīt
+- **Setup:** Speculative breakout
+- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `0.180596`
+- **SL:** `0.177572`
+- **TP1/TP2/TP3:** `0.181352` / `0.182864` / `0.184376`
+- **Risks:** vidējs | **Score:** 70/100
+
+## ICP/USD @ COINBASE
+- Cena: **5.031** | 24h: **+0.00%** | Vol: **—**
 - Konteksts: Trend **↓** | RSI(1h) **48** | MACD(1h) **bullish**
 
 ### Ieteikums
 - **Verdikts:** Pagaidīt
 - **Setup:** Speculative breakout
-- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `1.981587`
-- **SL:** `1.95124`
-- **TP1/TP2/TP3:** `1.989173` / `2.004347` / `2.01952`
+- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `5.062469`
+- **SL:** `4.936592`
+- **TP1/TP2/TP3:** `5.093939` / `5.156878` / `5.219816`
 - **Risks:** vidējs | **Score:** 60/100
 
-## DASH/USD @ COINBASE
-- Cena: **83.21** | 24h: **+0.00%** | Vol: **—**
-- Konteksts: Trend **↓** | RSI(1h) **42** | MACD(1h) **bearish**
-
-### Ieteikums
-- **Verdikts:** Nav ieteicams
-- **Setup:** Speculative breakout
-- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `84.121315`
-- **SL:** `80.476054`
-- **TP1/TP2/TP3:** `85.032631` / `86.855262` / `88.677892`
-- **Risks:** augsts | **Score:** 50/100
-
-## KSM/USD @ COINBASE
-- Cena: **9.98** | 24h: **+0.00%** | Vol: **—**
-- Konteksts: Trend **↓** | RSI(1h) **49** | MACD(1h) **bullish**
+## NMR/USD @ COINBASE
+- Cena: **11.39** | 24h: **+0.00%** | Vol: **—**
+- Konteksts: Trend **↓** | RSI(1h) **82** | MACD(1h) **bullish**
 
 ### Ieteikums
 - **Verdikts:** Pagaidīt
 - **Setup:** Speculative breakout
-- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `10.005613`
-- **SL:** `9.90316`
-- **TP1/TP2/TP3:** `10.031227` / `10.082454` / `10.133681`
+- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `11.512165`
+- **SL:** `11.023504`
+- **TP1/TP2/TP3:** `11.634331` / `11.878661` / `12.122992`
+- **Risks:** augsts | **Score:** 60/100
+
+## BLUR/USD @ COINBASE
+- Cena: **0.0419** | 24h: **+0.00%** | Vol: **—**
+- Konteksts: Trend **↓** | RSI(1h) **52** | MACD(1h) **bullish**
+
+### Ieteikums
+- **Verdikts:** Pagaidīt
+- **Setup:** Speculative breakout
+- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `0.042036`
+- **SL:** `0.041492`
+- **TP1/TP2/TP3:** `0.042172` / `0.042444` / `0.042717`
 - **Risks:** vidējs | **Score:** 60/100
 
-## BAT/USD @ COINBASE
-- Cena: **0.17906** | 24h: **+0.00%** | Vol: **—**
-- Konteksts: Trend **↓** | RSI(1h) **56** | MACD(1h) **bullish**
-
-### Ieteikums
-- **Verdikts:** Pagaidīt
-- **Setup:** Speculative breakout
-- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `0.179811`
-- **SL:** `0.176808`
-- **TP1/TP2/TP3:** `0.180561` / `0.182063` / `0.183564`
-- **Risks:** vidējs | **Score:** 70/100
-
-## CVX/USD @ COINBASE
-- Cena: **1.907** | 24h: **+0.00%** | Vol: **—**
-- Konteksts: Trend **↓** | RSI(1h) **60** | MACD(1h) **bullish**
-
-### Ieteikums
-- **Verdikts:** Pagaidīt
-- **Setup:** Speculative breakout
-- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `1.912517`
-- **SL:** `1.890449`
-- **TP1/TP2/TP3:** `1.918034` / `1.929068` / `1.940102`
-- **Risks:** vidējs | **Score:** 70/100
-
-## ICP/USD @ COINBASE
-- Cena: **4.996** | 24h: **+0.00%** | Vol: **—**
-- Konteksts: Trend **↓** | RSI(1h) **46** | MACD(1h) **bullish**
-
-### Ieteikums
-- **Verdikts:** Pagaidīt
-- **Setup:** Speculative breakout
-- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `5.028026`
-- **SL:** `4.899923`
-- **TP1/TP2/TP3:** `5.060052` / `5.124103` / `5.188155`
-- **Risks:** vidējs | **Score:** 60/100
-
-## GLM/USD @ COINBASE
-- Cena: **0.2176** | 24h: **+0.00%** | Vol: **—**
-- Konteksts: Trend **↓** | RSI(1h) **41** | MACD(1h) **bullish**
-
-### Ieteikums
-- **Verdikts:** Pagaidīt
-- **Setup:** Speculative breakout
-- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `0.218363`
-- **SL:** `0.215311`
-- **TP1/TP2/TP3:** `0.219126` / `0.220652` / `0.222178`
-- **Risks:** vidējs | **Score:** 60/100
-
-## SPA/USD @ COINBASE
-- Cena: **0.006899** | 24h: **+0.00%** | Vol: **—**
+## LPT/USD @ COINBASE
+- Cena: **4.76** | 24h: **+0.00%** | Vol: **—**
 - Konteksts: Trend **↓** | RSI(1h) **72** | MACD(1h) **bullish**
 
 ### Ieteikums
 - **Verdikts:** Pagaidīt
 - **Setup:** Speculative breakout
-- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `0.006987`
-- **SL:** `0.006635`
-- **TP1/TP2/TP3:** `0.007075` / `0.007252` / `0.007428`
-- **Risks:** augsts | **Score:** 60/100
+- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `4.788123`
+- **SL:** `4.67563`
+- **TP1/TP2/TP3:** `4.816247` / `4.872493` / `4.92874`
+- **Risks:** vidējs | **Score:** 60/100
 
-## NMR/USD @ COINBASE
-- Cena: **10.83** | 24h: **+0.00%** | Vol: **—**
-- Konteksts: Trend **↓** | RSI(1h) **68** | MACD(1h) **bullish**
-
-### Ieteikums
-- **Verdikts:** Pagaidīt
-- **Setup:** Speculative breakout
-- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `10.902513`
-- **SL:** `10.612461`
-- **TP1/TP2/TP3:** `10.975026` / `11.120052` / `11.265077`
-- **Risks:** vidējs | **Score:** 70/100
-
-## SKL/USD @ COINBASE
-- Cena: **0.0157** | 24h: **+0.00%** | Vol: **—**
-- Konteksts: Trend **↓** | RSI(1h) **57** | MACD(1h) **bullish**
+## SPA/USD @ COINBASE
+- Cena: **0.006688** | 24h: **+0.00%** | Vol: **—**
+- Konteksts: Trend **↓** | RSI(1h) **69** | MACD(1h) **bullish**
 
 ### Ieteikums
 - **Verdikts:** Pagaidīt
 - **Setup:** Speculative breakout
-- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `0.015774`
-- **SL:** `0.015478`
-- **TP1/TP2/TP3:** `0.015848` / `0.015995` / `0.016143`
+- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `0.006777`
+- **SL:** `0.006421`
+- **TP1/TP2/TP3:** `0.006866` / `0.007044` / `0.007223`
+- **Risks:** augsts | **Score:** 70/100
+
+## WEN/USD @ KRAKEN
+- Cena: **1.56e-05** | 24h: **+3.17%** | Vol: **1963913225.3631647**
+- Konteksts: Trend **↓** | RSI(1h) **59** | MACD(1h) **bullish**
+
+### Ieteikums
+- **Verdikts:** Pagaidīt
+- **Setup:** Speculative breakout
+- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `1.6e-05`
+- **SL:** `1.5e-05`
+- **TP1/TP2/TP3:** `1.6e-05` / `1.6e-05` / `1.6e-05`
 - **Risks:** vidējs | **Score:** 70/100
+
+## STX/USD @ COINBASE
+- Cena: **0.3533** | 24h: **+0.00%** | Vol: **—**
+- Konteksts: Trend **↓** | RSI(1h) **51** | MACD(1h) **bullish**
+
+### Ieteikums
+- **Verdikts:** Pagaidīt
+- **Setup:** Speculative breakout
+- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `0.354413`
+- **SL:** `0.349961`
+- **TP1/TP2/TP3:** `0.355526` / `0.357752` / `0.359978`
+- **Risks:** vidējs | **Score:** 60/100
 
 ## FWOG/USD @ KRAKEN
-- Cena: **0.01503** | 24h: **+3.23%** | Vol: **2964674.87875**
-- Konteksts: Trend **↓** | RSI(1h) **61** | MACD(1h) **bullish**
+- Cena: **0.0152** | 24h: **+4.40%** | Vol: **2965007.00931**
+- Konteksts: Trend **↓** | RSI(1h) **65** | MACD(1h) **bullish**
 
 ### Ieteikums
 - **Verdikts:** Pagaidīt
 - **Setup:** Speculative breakout
-- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `0.015049`
-- **SL:** `0.014972`
-- **TP1/TP2/TP3:** `0.015069` / `0.015108` / `0.015147`
+- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `0.01522`
+- **SL:** `0.015139`
+- **TP1/TP2/TP3:** `0.015241` / `0.015281` / `0.015322`
 - **Risks:** vidējs | **Score:** 70/100
 
-## RARI/USD @ COINBASE
-- Cena: **0.4972** | 24h: **+0.00%** | Vol: **—**
-- Konteksts: Trend **↓** | RSI(1h) **57** | MACD(1h) **bullish**
+## IMX/USD @ COINBASE
+- Cena: **0.3859** | 24h: **+0.00%** | Vol: **—**
+- Konteksts: Trend **↓** | RSI(1h) **64** | MACD(1h) **bullish**
 
 ### Ieteikums
 - **Verdikts:** Pagaidīt
 - **Setup:** Speculative breakout
-- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `0.498342`
-- **SL:** `0.493773`
-- **TP1/TP2/TP3:** `0.499485` / `0.501769` / `0.504054`
+- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `0.387345`
+- **SL:** `0.381565`
+- **TP1/TP2/TP3:** `0.38879` / `0.39168` / `0.39457`
 - **Risks:** vidējs | **Score:** 70/100
 
 *Ne finanšu padoms.*
