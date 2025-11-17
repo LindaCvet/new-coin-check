@@ -6,3 +6,5 @@ BAT
 ICP
 UNI
 MINA
+BTC
+ETH
