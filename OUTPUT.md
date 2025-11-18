@@ -11,81 +11,103 @@ KAITO
 WEN
 SUSHI
 FIL
-USDC
-USDT
+GLM
 CRV
-BTC
-ETH
+VVV
+APT
+LCT
+WLD
+FET
 ```
-**Laiks (UTC):** 2025-11-18 09:20 UTC
+**Laiks (UTC):** 2025-11-18 12:21 UTC
 
 ## TOP 3 darījumi
-**1. ICP/USD @ COINBASE** — Vērts pirkt (augsts, score 85)
-- Entry: `5.739838` | SL: `5.484486` | TP1: `5.803676`
-- Upside (TP1): **1.11%**, Downside (SL): **4.45%**, R:R **0.25**
+**1. GLM/USD @ COINBASE** — Vērts pirkt (vidējs, score 85)
+- Entry: `0.224593` | SL: `0.218621` | TP1: `0.226086`
+- Upside (TP1): **0.66%**, Downside (SL): **2.66%**, R:R **0.25**
 
 **2. CRV/USD @ COINBASE** — Pagaidīt (vidējs, score 70)
-- Entry: `0.432899` | SL: `0.423302` | TP1: `0.435299`
-- Upside (TP1): **0.55%**, Downside (SL): **2.22%**, R:R **0.25**
+- Entry: `0.430755` | SL: `0.422934` | TP1: `0.432711`
+- Upside (TP1): **0.45%**, Downside (SL): **1.82%**, R:R **0.25**
 
 **3. ZEN/USD @ COINBASE** — Pagaidīt (augsts, score 75)
-- Entry: `16.773075` | SL: `16.108774` | TP1: `16.939151`
-- Upside (TP1): **0.99%**, Downside (SL): **3.96%**, R:R **0.25**
+- Entry: `16.579648` | SL: `15.801055` | TP1: `16.774297`
+- Upside (TP1): **1.17%**, Downside (SL): **4.70%**, R:R **0.25**
 
 ## Salīdzinājuma tabula (visi)
 | Pāris | Verdikts | Risks | Score | Entry | SL | TP1 | Upside% | Downside% | R:R | RSI(1h) | MACD | 24h% | Cena |
 |---|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---|---:|---:|
-| MINA/USD | Pagaidīt | vidējs | 65 | 0.14126 | 0.13622 | 0.14252 | 0.89% | 3.57% | 0.25 | 51 | bearish | +0.00% | 0.14 |
-| ZEN/USD | Pagaidīt | augsts | 75 | 16.773075 | 16.108774 | 16.939151 | 0.99% | 3.96% | 0.25 | 61 | bearish | +0.00% | 16.607 |
-| UNI/USD | Nav ieteicams | vidējs | 50 | 7.412767 | 7.221699 | 7.460534 | 0.64% | 2.58% | 0.25 | 47 | bearish | +0.00% | 7.365 |
-| ALCX/USD | Pagaidīt | vidējs | 60 | 11.401632 | 11.155105 | 11.463264 | 0.54% | 2.16% | 0.25 | 40 | bullish | +0.00% | 11.34 |
-| ICP/USD | Vērts pirkt | augsts | 85 | 5.739838 | 5.484486 | 5.803676 | 1.11% | 4.45% | 0.25 | 61 | bullish | +0.00% | 5.676 |
-| KAITO/USD | Nav ieteicams | vidējs | 50 | 0.824866 | 0.798602 | 0.831432 | 0.80% | 3.18% | 0.25 | 50 | bearish | +0.00% | 0.8183 |
-| WEN/USD | Nav ieteicams | vidējs | 50 | 1.7e-05 | 1.7e-05 | 1.7e-05 | -1.10% | 2.47% | -0.44 | 55 | bearish | +0.42% | 1.672e-05 |
-| SUSHI/USD | Pagaidīt | vidējs | 70 | 0.479924 | 0.471029 | 0.482148 | 0.46% | 1.85% | 0.25 | 62 | bullish | +0.00% | 0.4777 |
-| FIL/USD | Nav ieteicams | vidējs | 50 | 2.000305 | 1.927084 | 2.018611 | 0.92% | 3.66% | 0.25 | 45 | bearish | +0.00% | 1.982 |
-| USDC/USD | Nav ieteicams | vidējs | 50 | 0.999753 | 0.999541 | 0.999806 | 0.01% | 0.02% | 0.25 | 48 | bearish | -0.01% | 0.9997 |
-| USDT/USD | Pagaidīt | vidējs | 60 | 0.999297 | 0.998629 | 0.999464 | 0.02% | 0.07% | 0.25 | 49 | bullish | +0.00% | 0.99913 |
-| CRV/USD | Pagaidīt | vidējs | 70 | 0.432899 | 0.423302 | 0.435299 | 0.55% | 2.22% | 0.25 | 60 | bullish | +0.00% | 0.4305 |
-| BTC/USD | Pagaidīt | vidējs | 60 | 91520.694873 | 90597.915381 | 91751.389746 | 0.25% | 1.01% | 0.25 | 42 | bullish | +0.00% | 91290.0 |
-| ETH/USD | Pagaidīt | vidējs | 60 | 3060.449639 | 3017.531084 | 3071.179277 | 0.35% | 1.40% | 0.25 | 49 | bullish | +0.76% | 3049.72 |
+| MINA/USD | Nav ieteicams | vidējs | 50 | 0.136898 | 0.133307 | 0.137795 | 0.66% | 2.62% | 0.25 | 44 | bearish | +0.00% | 0.136 |
+| ZEN/USD | Pagaidīt | augsts | 75 | 16.579648 | 15.801055 | 16.774297 | 1.17% | 4.70% | 0.25 | 57 | bearish | +0.00% | 16.385 |
+| UNI/USD | Nav ieteicams | vidējs | 50 | 7.338585 | 7.188244 | 7.376171 | 0.51% | 2.05% | 0.25 | 45 | bearish | +0.00% | 7.301 |
+| ALCX/USD | Pagaidīt | vidējs | 60 | 11.389201 | 11.192398 | 11.438401 | 0.43% | 1.73% | 0.25 | 40 | bullish | +0.00% | 11.34 |
+| ICP/USD | Nav ieteicams | augsts | 50 | 5.387003 | 5.142991 | 5.448006 | 1.13% | 4.53% | 0.25 | 46 | bearish | +0.00% | 5.326 |
+| KAITO/USD | Nav ieteicams | vidējs | 50 | 0.806665 | 0.787204 | 0.811531 | 0.60% | 2.41% | 0.25 | 45 | bearish | +0.00% | 0.8018 |
+| WEN/USD | Nav ieteicams | vidējs | 50 | 1.7e-05 | 1.7e-05 | 1.7e-05 | -1.42% | 1.99% | -0.72 | 55 | bearish | +0.42% | 1.672e-05 |
+| SUSHI/USD | Pagaidīt | vidējs | 60 | 0.468183 | 0.461052 | 0.469966 | 0.38% | 1.52% | 0.25 | 52 | bullish | +0.00% | 0.4664 |
+| FIL/USD | Nav ieteicams | vidējs | 50 | 1.956108 | 1.899677 | 1.970215 | 0.72% | 2.88% | 0.25 | 41 | bearish | +0.00% | 1.942 |
+| GLM/USD | Vērts pirkt | vidējs | 85 | 0.224593 | 0.218621 | 0.226086 | 0.66% | 2.66% | 0.25 | 68 | bullish | +0.00% | 0.2231 |
+| CRV/USD | Pagaidīt | vidējs | 70 | 0.430755 | 0.422934 | 0.432711 | 0.45% | 1.82% | 0.25 | 58 | bullish | +0.00% | 0.4288 |
+| VVV/USD | Pagaidīt | vidējs | 70 | 1.123524 | 1.109429 | 1.127048 | 0.31% | 1.25% | 0.25 | 60 | bullish | +0.00% | 1.12 |
+| APT/USD | Pagaidīt | vidējs | 70 | 2.879834 | 2.839298 | 2.889968 | 0.35% | 1.41% | 0.25 | 57 | bullish | +0.00% | 2.8697 |
+| WLD/USD | Pagaidīt | vidējs | 60 | 0.673793 | 0.66662 | 0.675586 | 0.27% | 1.06% | 0.25 | 54 | bullish | +0.00% | 0.672 |
+| LCT | Kļūda: Neizdevās atrast datu avotu LCT (pēdējā kļūda: bybit GET https://api.bybit.com/v5/market/instruments-info?category=spot 403 Forbidden <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<HTML><HEAD><META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<TITLE>ERROR: The request could not be satisfied</TITLE>
+</HEAD><BODY>
+<H1>403 ERROR</H1>
+<H2>The request could not be satisfied.</H2>
+<HR noshade size="1px">
+The Amazon CloudFront distribution is configured to block access from your country.
+We can't connect to the server for this app or website at this time. There might be too much traffic or a configuration error. Try again later, or contact the app or website owner.
+<BR clear="all">
+If you provide content to customers through CloudFront, you can find steps to troubleshoot and help prevent this error by reviewing the CloudFront documentation.
+<BR clear="all">
+<HR noshade size="1px">
+<PRE>
+Generated by cloudfront (CloudFront)
+Request ID: VmlaE-ji_T1gZIMO2EMKKX-ywcAbgGEawPkQ_qwN8HSloN-f2INymg==
+</PRE>
+<ADDRESS>
+</ADDRESS>
+</BODY></HTML>) | — | 0 | nan | nan | nan | — | — | — | nan | — | +nan% | nan |
 
 ---
 
 ## MINA/USD @ COINBASE
-- Cena: **0.14** | 24h: **+0.00%** | Vol: **—**
-- Konteksts: Trend **↑** | RSI(1h) **51** | MACD(1h) **bearish**
-
-### Ieteikums
-- **Verdikts:** Pagaidīt
-- **Setup:** Speculative breakout
-- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `0.14126`
-- **SL:** `0.13622`
-- **TP1/TP2/TP3:** `0.14252` / `0.14504` / `0.147561`
-- **Risks:** vidējs | **Score:** 65/100
-
-## ZEN/USD @ COINBASE
-- Cena: **16.607** | 24h: **+0.00%** | Vol: **—**
-- Konteksts: Trend **↑** | RSI(1h) **61** | MACD(1h) **bearish**
-
-### Ieteikums
-- **Verdikts:** Pagaidīt
-- **Setup:** Speculative breakout
-- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `16.773075`
-- **SL:** `16.108774`
-- **TP1/TP2/TP3:** `16.939151` / `17.271301` / `17.603452`
-- **Risks:** augsts | **Score:** 75/100
-
-## UNI/USD @ COINBASE
-- Cena: **7.365** | 24h: **+0.00%** | Vol: **—**
-- Konteksts: Trend **↓** | RSI(1h) **47** | MACD(1h) **bearish**
+- Cena: **0.136** | 24h: **+0.00%** | Vol: **—**
+- Konteksts: Trend **↓** | RSI(1h) **44** | MACD(1h) **bearish**
 
 ### Ieteikums
 - **Verdikts:** Nav ieteicams
 - **Setup:** Speculative breakout
-- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `7.412767`
-- **SL:** `7.221699`
-- **TP1/TP2/TP3:** `7.460534` / `7.556067` / `7.651601`
+- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `0.136898`
+- **SL:** `0.133307`
+- **TP1/TP2/TP3:** `0.137795` / `0.13959` / `0.141385`
+- **Risks:** vidējs | **Score:** 50/100
+
+## ZEN/USD @ COINBASE
+- Cena: **16.385** | 24h: **+0.00%** | Vol: **—**
+- Konteksts: Trend **↑** | RSI(1h) **57** | MACD(1h) **bearish**
+
+### Ieteikums
+- **Verdikts:** Pagaidīt
+- **Setup:** Speculative breakout
+- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `16.579648`
+- **SL:** `15.801055`
+- **TP1/TP2/TP3:** `16.774297` / `17.163594` / `17.55289`
+- **Risks:** augsts | **Score:** 75/100
+
+## UNI/USD @ COINBASE
+- Cena: **7.301** | 24h: **+0.00%** | Vol: **—**
+- Konteksts: Trend **↓** | RSI(1h) **45** | MACD(1h) **bearish**
+
+### Ieteikums
+- **Verdikts:** Nav ieteicams
+- **Setup:** Speculative breakout
+- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `7.338585`
+- **SL:** `7.188244`
+- **TP1/TP2/TP3:** `7.376171` / `7.451341` / `7.526512`
 - **Risks:** vidējs | **Score:** 50/100
 
 ## ALCX/USD @ COINBASE
@@ -95,37 +117,37 @@ ETH
 ### Ieteikums
 - **Verdikts:** Pagaidīt
 - **Setup:** Speculative breakout
-- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `11.401632`
-- **SL:** `11.155105`
-- **TP1/TP2/TP3:** `11.463264` / `11.586527` / `11.709791`
+- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `11.389201`
+- **SL:** `11.192398`
+- **TP1/TP2/TP3:** `11.438401` / `11.536802` / `11.635203`
 - **Risks:** vidējs | **Score:** 60/100
 
 ## ICP/USD @ COINBASE
-- Cena: **5.676** | 24h: **+0.00%** | Vol: **—**
-- Konteksts: Trend **↑** | RSI(1h) **61** | MACD(1h) **bullish**
-
-### Ieteikums
-- **Verdikts:** Vērts pirkt
-- **Setup:** Speculative breakout
-- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `5.739838`
-- **SL:** `5.484486`
-- **TP1/TP2/TP3:** `5.803676` / `5.931351` / `6.059027`
-- **Risks:** augsts | **Score:** 85/100
-
-## KAITO/USD @ COINBASE
-- Cena: **0.8183** | 24h: **+0.00%** | Vol: **—**
-- Konteksts: Trend **↓** | RSI(1h) **50** | MACD(1h) **bearish**
+- Cena: **5.326** | 24h: **+0.00%** | Vol: **—**
+- Konteksts: Trend **↓** | RSI(1h) **46** | MACD(1h) **bearish**
 
 ### Ieteikums
 - **Verdikts:** Nav ieteicams
 - **Setup:** Speculative breakout
-- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `0.824866`
-- **SL:** `0.798602`
-- **TP1/TP2/TP3:** `0.831432` / `0.844564` / `0.857696`
+- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `5.387003`
+- **SL:** `5.142991`
+- **TP1/TP2/TP3:** `5.448006` / `5.570012` / `5.692018`
+- **Risks:** augsts | **Score:** 50/100
+
+## KAITO/USD @ COINBASE
+- Cena: **0.8018** | 24h: **+0.00%** | Vol: **—**
+- Konteksts: Trend **↓** | RSI(1h) **45** | MACD(1h) **bearish**
+
+### Ieteikums
+- **Verdikts:** Nav ieteicams
+- **Setup:** Speculative breakout
+- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `0.806665`
+- **SL:** `0.787204`
+- **TP1/TP2/TP3:** `0.811531` / `0.821262` / `0.830993`
 - **Risks:** vidējs | **Score:** 50/100
 
 ## WEN/USD @ KRAKEN
-- Cena: **1.672e-05** | 24h: **+0.42%** | Vol: **1012158070.798806**
+- Cena: **1.672e-05** | 24h: **+0.42%** | Vol: **544148912.1350352**
 - Konteksts: Trend **↓** | RSI(1h) **55** | MACD(1h) **bearish**
 
 ### Ieteikums
@@ -137,87 +159,118 @@ ETH
 - **Risks:** vidējs | **Score:** 50/100
 
 ## SUSHI/USD @ COINBASE
-- Cena: **0.4777** | 24h: **+0.00%** | Vol: **—**
-- Konteksts: Trend **↓** | RSI(1h) **62** | MACD(1h) **bullish**
+- Cena: **0.4664** | 24h: **+0.00%** | Vol: **—**
+- Konteksts: Trend **↓** | RSI(1h) **52** | MACD(1h) **bullish**
 
 ### Ieteikums
 - **Verdikts:** Pagaidīt
 - **Setup:** Speculative breakout
-- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `0.479924`
-- **SL:** `0.471029`
-- **TP1/TP2/TP3:** `0.482148` / `0.486595` / `0.491043`
-- **Risks:** vidējs | **Score:** 70/100
-
-## FIL/USD @ COINBASE
-- Cena: **1.982** | 24h: **+0.00%** | Vol: **—**
-- Konteksts: Trend **↓** | RSI(1h) **45** | MACD(1h) **bearish**
-
-### Ieteikums
-- **Verdikts:** Nav ieteicams
-- **Setup:** Speculative breakout
-- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `2.000305`
-- **SL:** `1.927084`
-- **TP1/TP2/TP3:** `2.018611` / `2.055222` / `2.091833`
-- **Risks:** vidējs | **Score:** 50/100
-
-## USDC/USD @ KRAKEN
-- Cena: **0.9997** | 24h: **-0.01%** | Vol: **117161978.91780308**
-- Konteksts: Trend **↓** | RSI(1h) **48** | MACD(1h) **bearish**
-
-### Ieteikums
-- **Verdikts:** Nav ieteicams
-- **Setup:** Speculative breakout
-- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `0.999753`
-- **SL:** `0.999541`
-- **TP1/TP2/TP3:** `0.999806` / `0.999911` / `1.000017`
-- **Risks:** vidējs | **Score:** 50/100
-
-## USDT/USD @ COINBASE
-- Cena: **0.99913** | 24h: **+0.00%** | Vol: **—**
-- Konteksts: Trend **↓** | RSI(1h) **49** | MACD(1h) **bullish**
-
-### Ieteikums
-- **Verdikts:** Pagaidīt
-- **Setup:** Speculative breakout
-- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `0.999297`
-- **SL:** `0.998629`
-- **TP1/TP2/TP3:** `0.999464` / `0.999798` / `1.000133`
+- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `0.468183`
+- **SL:** `0.461052`
+- **TP1/TP2/TP3:** `0.469966` / `0.473531` / `0.477097`
 - **Risks:** vidējs | **Score:** 60/100
 
+## FIL/USD @ COINBASE
+- Cena: **1.942** | 24h: **+0.00%** | Vol: **—**
+- Konteksts: Trend **↓** | RSI(1h) **41** | MACD(1h) **bearish**
+
+### Ieteikums
+- **Verdikts:** Nav ieteicams
+- **Setup:** Speculative breakout
+- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `1.956108`
+- **SL:** `1.899677`
+- **TP1/TP2/TP3:** `1.970215` / `1.99843` / `2.026645`
+- **Risks:** vidējs | **Score:** 50/100
+
+## GLM/USD @ COINBASE
+- Cena: **0.2231** | 24h: **+0.00%** | Vol: **—**
+- Konteksts: Trend **↑** | RSI(1h) **68** | MACD(1h) **bullish**
+
+### Ieteikums
+- **Verdikts:** Vērts pirkt
+- **Setup:** Speculative breakout
+- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `0.224593`
+- **SL:** `0.218621`
+- **TP1/TP2/TP3:** `0.226086` / `0.229073` / `0.232059`
+- **Risks:** vidējs | **Score:** 85/100
+
 ## CRV/USD @ COINBASE
-- Cena: **0.4305** | 24h: **+0.00%** | Vol: **—**
+- Cena: **0.4288** | 24h: **+0.00%** | Vol: **—**
+- Konteksts: Trend **↓** | RSI(1h) **58** | MACD(1h) **bullish**
+
+### Ieteikums
+- **Verdikts:** Pagaidīt
+- **Setup:** Speculative breakout
+- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `0.430755`
+- **SL:** `0.422934`
+- **TP1/TP2/TP3:** `0.432711` / `0.436621` / `0.440532`
+- **Risks:** vidējs | **Score:** 70/100
+
+## VVV/USD @ COINBASE
+- Cena: **1.12** | 24h: **+0.00%** | Vol: **—**
 - Konteksts: Trend **↓** | RSI(1h) **60** | MACD(1h) **bullish**
 
 ### Ieteikums
 - **Verdikts:** Pagaidīt
 - **Setup:** Speculative breakout
-- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `0.432899`
-- **SL:** `0.423302`
-- **TP1/TP2/TP3:** `0.435299` / `0.440098` / `0.444897`
+- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `1.123524`
+- **SL:** `1.109429`
+- **TP1/TP2/TP3:** `1.127048` / `1.134095` / `1.141143`
 - **Risks:** vidējs | **Score:** 70/100
 
-## BTC/USD @ COINBASE
-- Cena: **91290.0** | 24h: **+0.00%** | Vol: **—**
-- Konteksts: Trend **↓** | RSI(1h) **42** | MACD(1h) **bullish**
+## APT/USD @ COINBASE
+- Cena: **2.8697** | 24h: **+0.00%** | Vol: **—**
+- Konteksts: Trend **↓** | RSI(1h) **57** | MACD(1h) **bullish**
 
 ### Ieteikums
 - **Verdikts:** Pagaidīt
 - **Setup:** Speculative breakout
-- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `91520.694873`
-- **SL:** `90597.915381`
-- **TP1/TP2/TP3:** `91751.389746` / `92212.779492` / `92674.169239`
-- **Risks:** vidējs | **Score:** 60/100
+- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `2.879834`
+- **SL:** `2.839298`
+- **TP1/TP2/TP3:** `2.889968` / `2.910235` / `2.930503`
+- **Risks:** vidējs | **Score:** 70/100
 
-## ETH/USD @ KRAKEN
-- Cena: **3049.72** | 24h: **+0.76%** | Vol: **47097.44026425**
-- Konteksts: Trend **↓** | RSI(1h) **49** | MACD(1h) **bullish**
+## WLD/USD @ COINBASE
+- Cena: **0.672** | 24h: **+0.00%** | Vol: **—**
+- Konteksts: Trend **↓** | RSI(1h) **54** | MACD(1h) **bullish**
 
 ### Ieteikums
 - **Verdikts:** Pagaidīt
 - **Setup:** Speculative breakout
-- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `3060.449639`
-- **SL:** `3017.531084`
-- **TP1/TP2/TP3:** `3071.179277` / `3092.638554` / `3114.097831`
+- **Entry:** Breakout virs pēdējā 15m high ar apjomu  — **Cena:** `0.673793`
+- **SL:** `0.66662`
+- **TP1/TP2/TP3:** `0.675586` / `0.679173` / `0.682759`
 - **Risks:** vidējs | **Score:** 60/100
+
+## LCT @ —
+- Cena: **nan** | 24h: **+nan%** | Vol: **—**
+- Konteksts: Trend **—** | RSI(1h) **nan** | MACD(1h) **—**
+
+### Ieteikums
+- **Verdikts:** Kļūda: Neizdevās atrast datu avotu LCT (pēdējā kļūda: bybit GET https://api.bybit.com/v5/market/instruments-info?category=spot 403 Forbidden <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<HTML><HEAD><META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<TITLE>ERROR: The request could not be satisfied</TITLE>
+</HEAD><BODY>
+<H1>403 ERROR</H1>
+<H2>The request could not be satisfied.</H2>
+<HR noshade size="1px">
+The Amazon CloudFront distribution is configured to block access from your country.
+We can't connect to the server for this app or website at this time. There might be too much traffic or a configuration error. Try again later, or contact the app or website owner.
+<BR clear="all">
+If you provide content to customers through CloudFront, you can find steps to troubleshoot and help prevent this error by reviewing the CloudFront documentation.
+<BR clear="all">
+<HR noshade size="1px">
+<PRE>
+Generated by cloudfront (CloudFront)
+Request ID: VmlaE-ji_T1gZIMO2EMKKX-ywcAbgGEawPkQ_qwN8HSloN-f2INymg==
+</PRE>
+<ADDRESS>
+</ADDRESS>
+</BODY></HTML>)
+- **Setup:** —
+- **Entry:** —  — **Cena:** `nan`
+- **SL:** `nan`
+- **TP1/TP2/TP3:** `nan` / `nan` / `nan`
+- **Risks:** — | **Score:** 0/100
 
 *Ne finanšu padoms.*
