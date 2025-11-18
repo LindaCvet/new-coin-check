@@ -9,3 +9,4 @@ TAO
 APT
 ENA
 AAVE
+DYDX
