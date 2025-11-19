@@ -1,4 +1,3 @@
-XCN
 RARE
 MAGIC
 GLM
